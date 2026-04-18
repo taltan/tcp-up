@@ -65,9 +65,9 @@ C’est **principalement sur ces fichiers** que les contributions sont attendues
 
 La meilleure façon de contribuer est de :
 
-1. lire les documents dans `docs/`,
-2. signaler un cas ambigu ou une contradiction via une issue,
-3. proposer une clarification de formulation,
+1. lire les documents dans `docs/` ;
+2. signaler un cas ambigu ou une contradiction via une issue ;
+3. proposer une clarification de formulation ;
 4. ouvrir une pull request ciblée si vous avez une proposition de modification.
 
 Merci de lire [`CONTRIBUTING.md`](./CONTRIBUTING.md) avant de contribuer.

@@ -4,17 +4,37 @@ about: Signaler un cas ambigu, contradictoire ou incomplet dans le protocole
 labels: [case, clarification]
 ---
 
-## Titre court du cas
+## Titre court
 
 Décrivez le cas en une phrase claire.
 
+## Type de contribution
+
+Indiquez ce qui correspond le mieux :
+
+- cas limite doctrinal
+- contradiction entre labels
+- clarification éditoriale
+- exemple à ajouter
+- question sur un asset visuel
+- autre
+
 ## Contexte
 
-Décrivez le type de contenu concerné : texte, image, audio, vidéo, code, document composite, autre.
+Type de contenu concerné :
+
+- texte
+- image
+- audio
+- vidéo
+- code
+- contenu composite
+- asset visuel
+- autre
 
 ## Workflow réel
 
-Expliquez étape par étape :
+Décrivez simplement, étape par étape :
 
 1. Ce que l’humain a fait
 2. Ce que l’IA a fait
@@ -23,29 +43,58 @@ Expliquez étape par étape :
 
 ## Point d’ambiguïté
 
-Qu’est-ce qui rend le choix du label difficile ?
+Qu’est-ce qui rend l’interprétation difficile ?
 
-## Label que vous jugeriez correct
+## Label proposé
 
-Indiquez le label que vous proposeriez : HUC, HCA, HCE, ACE ou AIC.
+Indiquez le label que vous jugez le plus juste :
+
+- HUC
+- HCA
+- HCE
+- ACE
+- AIC
 
 ## Justification
 
-Expliquez pourquoi ce label vous semble plus fidèle à la réalité.
+Expliquez pourquoi ce label vous semble le plus fidèle à la réalité.
 
 ## Alternative possible
 
-Y a-t-il un second label plausible ? Si oui, lequel, et pourquoi ?
+Y a-t-il un second label plausible ?  
+Si oui, lequel, et pourquoi ?
 
-## Impact
+## Fichier(s) concerné(s)
 
-Pourquoi ce cas mérite-t-il d’être clarifié ?
+Indiquez si possible le ou les fichiers à revoir :
 
-- confusion fréquente,
-- cas de publication courant,
-- risque de mauvaise interprétation,
-- angle nouveau pour la gouvernance,
-- autre.
+- `docs/manifeste.md`
+- `docs/logique-labels.md`
+- `docs/documentation.md`
+- `docs/faq.md`
+- `docs/ethique.md`
+- `docs/labels/label-huc.md`
+- `docs/labels/label-hca.md`
+- `docs/labels/label-hce.md`
+- `docs/labels/label-ace.md`
+- `docs/labels/label-aic.md`
+- `CASES.md`
+- autre
+
+## Asset concerné, si applicable
+
+Si la question porte sur un visuel, indiquez ici le fichier concerné dans `assets/`.
+
+## Pourquoi c’est important
+
+Expliquez brièvement l’intérêt de clarifier ce cas :
+
+- confusion fréquente
+- cas courant
+- risque de mauvaise interprétation
+- incohérence doctrinale
+- enjeu pédagogique ou visuel
+- autre
 
 ## Référence utile
 

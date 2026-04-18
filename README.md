@@ -88,7 +88,9 @@ Merci de lire [`CONTRIBUTING.md`](./CONTRIBUTING.md) avant de contribuer.
 ├── SECURITY.md
 ├── .github/
 │   └── ISSUE_TEMPLATE/
-│       └── protocol-case.md
+│       ├── protocol-case.md
+│       ├── question.md
+│       └── config.yml
 ├── docs/
 │   ├── manifeste.md
 │   ├── logique-labels.md
@@ -176,6 +178,8 @@ Si vous devez signaler une vulnérabilité, une exposition involontaire d’info
 
 Le contenu documentaire du dépôt est publié sous **CC BY 4.0**, sauf mention contraire.  
 Les logos, badges, la marque et l’identité visuelle restent exclus par défaut.
+
+---
 
 ## Esprit du projet
 

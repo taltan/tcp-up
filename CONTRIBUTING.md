@@ -6,7 +6,7 @@ Merci de vouloir améliorer TCP/UP.
 
 TCP/UP est un projet documentaire et évolutif.
 
-Les contributions sont principalement attendues sur les documents du dossier [`docs/`](./docs), qui constituent le cœur du protocole :
+Les contributions sont principalement attendues sur les documents du dossier [`docs/`](./docs), qui constituent le cœur du protocole. Si une ressource visuelle est concernée, elle peut être ajoutée ou ajustée dans [`assets/`](./assets) lorsque cela sert la documentation :
 
 - `docs/manifeste.md`
 - `docs/logique-labels.md`
@@ -26,7 +26,28 @@ Merci de lire au minimum :
 - [`CASES.md`](./CASES.md)
 - [`GOVERNANCE.md`](./GOVERNANCE.md)
 
-## 3. Formes de contribution privilégiées
+## 3. Ce sur quoi contribuer en priorité
+
+Les contributions les plus utiles concernent :
+
+- les distinctions entre labels,
+- les cas limites,
+- les contradictions éventuelles entre documents,
+- les exemples,
+- les objections récurrentes,
+- les formulations trop floues ou trop catégoriques.
+
+En priorité, les contributions sont attendues dans :
+
+- `docs/logique-labels.md`
+- `docs/documentation.md`
+- `docs/faq.md`
+- `docs/ethique.md`
+- `docs/labels/`
+
+Les ressources présentes dans `assets/` peuvent aussi faire l’objet de contributions si elles améliorent la lisibilité, la compréhension ou la diffusion du protocole.
+
+## 4. Formes de contribution privilégiées
 
 Les contributions les plus utiles sont :
 
@@ -35,9 +56,10 @@ Les contributions les plus utiles sont :
 - proposer une meilleure formulation,
 - ajouter un exemple concret,
 - préciser une distinction entre deux labels,
-- suggérer une amélioration de structure documentaire.
+- suggérer une amélioration de structure documentaire,
+- proposer un badge, un visuel ou une ressource graphique utile à la documentation.
 
-## 4. Mode de contribution recommandé
+## 5. Mode de contribution recommandé
 
 ### A. Ouvrir une issue
 
@@ -46,7 +68,8 @@ Ouvrez d’abord une issue si :
 - le cas est ambigu,
 - la modification est substantielle,
 - plusieurs interprétations semblent possibles,
-- vous souhaitez discuter avant de rédiger une proposition.
+- vous souhaitez discuter avant de rédiger une proposition,
+- vous voulez suggérer un nouvel asset ou une modification visuelle importante.
 
 ### B. Ouvrir une pull request
 
@@ -55,9 +78,10 @@ Vous pouvez ouvrir directement une pull request si :
 - il s’agit d’une correction claire,
 - vous proposez une reformulation ciblée,
 - vous ajoutez un exemple bien cadré,
-- vous corrigez une incohérence identifiée.
+- vous corrigez une incohérence identifiée,
+- vous améliorez un asset déjà existant sans changer l’esprit visuel du projet.
 
-## 5. Règles de contribution
+## 6. Règles de contribution
 
 - Une issue ou une pull request par sujet
 - Être précis et concret
@@ -66,7 +90,7 @@ Vous pouvez ouvrir directement une pull request si :
 - Indiquer le ou les fichiers concernés
 - Rester fidèle à l’esprit déclaratif et prudent du protocole
 
-## 6. Modèle conseillé pour une contribution
+## 7. Modèle conseillé pour une contribution
 
 Merci d’indiquer :
 
@@ -75,16 +99,36 @@ Merci d’indiquer :
 - le **point d’ambiguïté**,
 - le **label proposé**,
 - la **justification**,
-- le **fichier à modifier** dans `docs/`.
+- le **fichier à modifier** dans `docs/`,
+- et, si pertinent, l’asset concerné dans `assets/`.
 
-## 7. Ce qu’il vaut mieux éviter
+## 8. Contribuer sur les assets
+
+Le dossier [`assets/`](./assets) contient les ressources visuelles de référence du projet, notamment :
+
+- les badges SVG,
+- les icônes,
+- les logos,
+- d’éventuels visuels de démonstration.
+
+Les contributions sur `assets/` sont bienvenues lorsqu’elles :
+
+- clarifient la documentation,
+- améliorent la cohérence visuelle des labels,
+- facilitent la réutilisation publique du protocole,
+- restent compatibles avec l’identité du projet.
+
+Les assets ne doivent pas devenir un espace de variantes décoratives sans usage documentaire clair.
+
+## 9. Ce qu’il vaut mieux éviter
 
 - les contributions trop vagues,
 - les reformulations purement cosmétiques sans justification,
 - les modifications massives de plusieurs fichiers sans discussion préalable,
-- les propositions qui transforment TCP/UP en système de détection ou de certification sans débat de fond.
+- les propositions qui transforment TCP/UP en système de détection ou de certification sans débat de fond,
+- l’ajout d’assets redondants, non stabilisés ou sans rôle clair.
 
-## 8. Ton attendu
+## 10. Ton attendu
 
 Merci de garder des échanges :
 
@@ -93,6 +137,6 @@ Merci de garder des échanges :
 - concis,
 - ouverts à la contradiction.
 
-## 9. Décision finale
+## 11. Décision finale
 
-Le mainteneur du projet reste responsable de l’intégration finale des contributions, en cohérence avec [`GOVERNANCE.md`](./GOVERNANCE.md).
+Le 

@@ -30,19 +30,19 @@ TCP/UP distingue deux dimensions :
 
 ## 4. Les labels
 
-### HUC - Human Content
+### HUC — Human Content
 Aucune IA n’est utilisée dans la création du contenu, ni pour le fond ni pour la forme.
 
-### HCA - Human-Centric Assistance
+### HCA — Human-Centric Assistance
 Le contenu est entièrement humain. L’IA est utilisée uniquement pour une correction technique, comme l’orthographe, la grammaire, la syntaxe ou un nettoyage de forme, sans modification éditoriale.
 
-### HCE - Human-Centric Editing
+### HCE — Human-Centric Editing
 Le fond, l’intention et l’architecture intellectuelle restent humains. L’IA assiste la formulation, la reformulation, le ton, la traduction ou la présentation.
 
-### ACE - AI-Centric Editing
+### ACE — AI-Centric Editing
 L’humain et l’IA co-construisent substantiellement le résultat. L’IA contribue à la structure, aux idées, à l’angle ou au premier brouillon significatif.
 
-### AIC - AI Content
+### AIC — AI Content
 Le résultat est principalement ou entièrement généré par IA. L’intervention humaine se limite au prompt, à la sélection ou à une validation légère.
 
 ## 5. Règles d’interprétation
@@ -68,7 +68,7 @@ TCP/UP :
 
 Exemple de signature publique :
 
-`TCP/UP HCE - Fond humain, formulation assistée par IA.`
+`TCP/UP HCE — Fond humain, formulation assistée par IA.`
 
 ## 8. Évolutions possibles
 

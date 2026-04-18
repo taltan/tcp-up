@@ -44,6 +44,7 @@ Il suit une logique simple : une section par version, les versions les plus réc
 - Harmonisation doctrinale et structurelle de `SPECIFICATION.md`.
 - Harmonisation des cas d’usage et arbitrages dans `CASES.md`.
 - Harmonisation du cadrage de réutilisation dans `LICENSE`.
+- Mise à jour du régime de licence documentaire du dépôt de `CC BY 4.0` vers `CC BY-SA 4.0`.
 
 ### Clarifié
 - Distinction entre le rôle des fichiers racine et celui des documents du dossier `docs/`.
@@ -65,6 +66,7 @@ Il suit une logique simple : une section par version, les versions les plus réc
 - Politique de signalement responsable dans `SECURITY.md`.
 - Structure harmonisée du socle racine du dépôt.
 - Articulation entre documentation, gouvernance, sécurité, cas d’usage et licence.
+- Caractère partage à l’identique de la licence documentaire applicable aux contenus ouverts du dépôt.
 
 ## Format utilisé
 

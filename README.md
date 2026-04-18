@@ -85,6 +85,7 @@ Merci de lire [`CONTRIBUTING.md`](./CONTRIBUTING.md) avant de contribuer.
 ├── GOVERNANCE.md
 ├── CHANGELOG.md
 ├── LICENSE
+├── SECURITY.md
 ├── .github/
 │   └── ISSUE_TEMPLATE/
 │       └── protocol-case.md
@@ -139,6 +140,7 @@ Merci de lire [`CONTRIBUTING.md`](./CONTRIBUTING.md) avant de contribuer.
 - `GOVERNANCE.md` : mode d’évolution du projet
 - `CHANGELOG.md` : historique des changements
 - `LICENSE` : cadre de réutilisation
+- `SECURITY.md` : politique de signalement des vulnérabilités, expositions sensibles et usages problématiques liés au dépôt ou à ses ressources
 
 ---
 
@@ -157,10 +159,16 @@ Les contributions visuelles utiles à la documentation peuvent être proposées 
 
 ---
 
+## Sécurité
+
+Si vous devez signaler une vulnérabilité, une exposition involontaire d’information sensible, un problème lié à un snippet, à un asset officiel ou à un usage trompeur susceptible d’induire le public en erreur, merci de consulter [`SECURITY.md`](./SECURITY.md).
+
+---
+
 ## Site web
 
-- Site : https://tcp-up.org
-- Contact : contact@tcp-up.org
+- Site : [https://tcp-up.org](https://tcp-up.org)
+- Contact : [contact@tcp-up.org](mailto:contact@tcp-up.org)
 
 ---
 

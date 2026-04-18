@@ -1,6 +1,6 @@
 TCP/UP - Licence du dépôt
 
-Sauf mention contraire, le contenu documentaire de ce dépôt est mis à disposition selon la licence Creative Commons Attribution 4.0 International (CC BY 4.0).
+Sauf mention contraire, le contenu documentaire de ce dépôt est mis à disposition selon la licence Creative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International (CC BY-SA 4.0).
 
 Cela inclut notamment :
 - les textes de documentation ;
@@ -14,10 +14,15 @@ Vous êtes autorisé à :
 - adapter ;
 - réutiliser le contenu documentaire,
 
-à condition de créditer correctement la source et de mentionner les éventuelles modifications, conformément aux termes de la licence CC BY 4.0.
+à condition :
+- de créditer correctement la source ;
+- de mentionner les éventuelles modifications ;
+- de redistribuer toute version modifiée sous la même licence CC BY-SA 4.0,
+
+conformément aux termes de la licence.
 
 Lien vers la licence :
-https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/licenses/by-sa/4.0/
 
 Exclusions
 
@@ -55,5 +60,5 @@ Le dépôt, ses contenus et ses ressources sont fournis en l’état, sans garan
 En cas de doute
 
 En cas d’ambiguïté sur le régime applicable à un fichier, un asset ou un usage, l’interprétation la plus prudente s’applique :
-- le contenu documentaire est ouvert par défaut sous CC BY 4.0 ;
+- le contenu documentaire est ouvert par défaut sous CC BY-SA 4.0 ;
 - les éléments visuels, de marque ou d’identité ne le sont pas, sauf mention explicite contraire.

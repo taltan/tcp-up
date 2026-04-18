@@ -139,4 +139,4 @@ Merci de garder des échanges :
 
 ## 11. Décision finale
 
-Le 
+Le mainteneur du projet reste responsable de l’intégration finale des contributions, en cohérence avec [`GOVERNANCE.md`](./GOVERNANCE.md).

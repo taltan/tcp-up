@@ -1,190 +1,363 @@
-# CASES - Cas d’usage et arbitrages transversaux
+# Cas d’usage et arbitrages TCP/UP
 
-Ce document rassemble des cas types pour aider à interpréter le protocole TCP/UP.
+## Objet
 
-Il complète les documents du dossier [`docs/`](./docs), qui constituent le cœur contributif du projet. Les visuels de référence éventuellement associés peuvent être conservés dans [`assets/`](./assets).
+Ce document rassemble des cas d’usage transversaux, des situations limites et des arbitrages d’interprétation relatifs au protocole TCP/UP.
 
-## Rôle de ce fichier
+Il complète `SPECIFICATION.md` en apportant des exemples concrets de qualification. Son rôle n’est pas de remplacer la spécification, mais d’aider à l’appliquer de manière plus lisible, plus cohérente et plus prudente.
 
-`CASES.md` a vocation à :
-
-- documenter des arbitrages fréquents,
-- pointer des zones de tension entre labels,
-- orienter les discussions ouvertes en issue,
-- servir de passerelle entre les principes généraux et les fichiers détaillés de `docs/`.
-
-Les propositions de nouveaux cas peuvent donner lieu ensuite à des mises à jour dans :
-
-- `docs/documentation.md`
-- `docs/faq.md`
-- `docs/logique-labels.md`
-- `docs/labels/*.md`
+En cas de contradiction apparente, `SPECIFICATION.md` prévaut.
 
 ---
 
-## 1. Correction orthographique uniquement
+## Principe de lecture
+
+Les cas ci-dessous doivent être lus comme des repères d’interprétation.
+
+Ils ont pour but :
+
+- d’éclairer les situations ambiguës ;
+- de réduire les sous-déclarations ;
+- d’aider à distinguer le rôle du fond et celui de la forme ;
+- d’encourager une application prudente et sincère du protocole.
+
+Chaque cas présente :
+
+- une situation ;
+- un label généralement recommandé ;
+- une justification courte.
+
+Les cas ne couvrent pas toutes les variantes possibles. En cas de doute, la règle de prudence s’applique.
+
+---
+
+## Règle de prudence
+
+Lorsque plusieurs labels paraissent défendables, il convient de retenir celui qui attribue la part la plus importante à l’IA.
+
+Cette règle s’applique en particulier :
+
+- lorsque l’IA a contribué au plan ou à la structure ;
+- lorsque la frontière entre reformulation et co-construction devient floue ;
+- lorsque l’humain valide surtout un résultat déjà fortement produit ;
+- lorsque la présentation publique risquerait d’exagérer la part humaine.
+
+---
+
+## Cas liés à l’écriture
+
+### Cas 1 - Texte entièrement rédigé sans IA
 
 **Situation**  
-Un texte humain est relu par un correcteur automatique qui corrige uniquement orthographe, accords ou ponctuation.
+L’auteur conçoit, structure et rédige son texte sans recourir à un outil d’intelligence artificielle.
 
 **Label recommandé**  
-**HCA**
+`HUC`
 
-**Pourquoi**  
-Le fond et la forme éditoriale restent humains. L’IA ne joue qu’un rôle de correction technique.
+**Justification**  
+Le fond et la forme relèvent entièrement d’un travail humain.
 
 ---
 
-## 2. Reformulation de style
+### Cas 2 - Correction orthographique ou grammaticale uniquement
 
 **Situation**  
-L’auteur demande une reformulation plus fluide, diplomatique ou lisible, sans changement intentionnel du fond.
+L’auteur rédige seul son texte, puis utilise une IA uniquement pour corriger l’orthographe, la grammaire ou quelques détails de syntaxe, sans transformation éditoriale substantielle.
 
 **Label recommandé**  
-**HCE**
+`HCA`
 
-**Pourquoi**  
-Le fond reste humain mais la formulation finale est assistée par IA.
+**Justification**  
+Le fond reste humain et l’intervention de l’IA demeure strictement technique.
 
 ---
 
-## 3. Traduction avec relecture humaine
+### Cas 3 - Reformulation stylistique
 
 **Situation**  
-Un texte d’origine humaine est traduit par IA puis relu et validé par son auteur.
+L’auteur a conçu seul le fond, mais demande à une IA d’améliorer la fluidité, le ton ou la formulation du texte.
 
 **Label recommandé**  
-**HCE**
+`HCE`
 
-**Pourquoi**  
-L’idée reste humaine, mais la forme dans la langue cible est produite par l’outil.
+**Justification**  
+Le fond reste humain, mais la forme est assistée de manière réelle.
 
 ---
 
-## 4. Plan proposé par IA
+### Cas 4 - Traduction avec relecture humaine
 
 **Situation**  
-L’IA suggère un plan ou une structure avant une rédaction entièrement humaine.
+Un texte pensé et structuré par un humain est traduit avec l’aide d’une IA, puis relu et validé.
 
 **Label recommandé**  
-**ACE**
+`HCE`
 
-**Pourquoi**  
-L’IA a contribué à l’architecture intellectuelle initiale.
+**Justification**  
+L’intention et le fond restent humains, mais la formulation finale dépend d’une assistance sur la forme.
 
 ---
 
-## 5. Brouillon généré puis fortement réécrit
+### Cas 5 - Plan proposé par IA avant rédaction
 
 **Situation**  
-L’IA génère un texte complet, ensuite largement repris, restructuré et enrichi par un humain.
+L’auteur demande à une IA de proposer un plan, une structure ou une organisation des idées, puis rédige lui-même le contenu final.
 
 **Label recommandé**  
-**ACE**
+`ACE`
 
-**Pourquoi**  
-Même retravaillée, la première impulsion structurelle vient de l’IA.
+**Justification**  
+Dès lors que l’IA intervient dans l’architecture intellectuelle du contenu, elle participe au fond.
 
 ---
 
-## 6. Sélection parmi plusieurs sorties IA
+### Cas 6 - Premier jet généré puis réécrit en partie
 
 **Situation**  
-L’utilisateur génère plusieurs textes et choisit le meilleur sans réécriture substantielle.
+Une IA produit un premier jet substantiel, que l’auteur retravaille, corrige et améliore ensuite.
 
 **Label recommandé**  
-**AIC**
+`ACE`  
+ou `AIC` dans les cas les plus fortement générés
 
-**Pourquoi**  
-La sélection seule ne constitue pas une co-construction forte.
+**Justification**  
+Le premier jet constitue déjà une contribution structurante. Une réécriture humaine ultérieure ne suffit pas automatiquement à faire revenir le contenu dans la série H.
 
 ---
 
-## 7. Mega-prompt très détaillé
+### Cas 7 - Résumé d’un texte personnel par IA
 
 **Situation**  
-Le prompt contient déjà l’architecture intellectuelle, les arguments, le ton et les contraintes du texte.
+L’auteur fournit son propre texte à une IA pour obtenir un résumé, puis publie ce résumé après relecture.
 
 **Label recommandé**  
-**HCE** ou **ACE** selon influence réelle de l’IA
+`HCE`
 
-**Pourquoi**  
-Si l’IA ne fait que mettre en mots une structure déjà entièrement pensée, HCE peut se défendre. Si elle réoriente la structure ou ajoute des angles non prévus, ACE est plus prudent.
+**Justification**  
+Le fond initial est humain, mais la forme résumée est produite par l’IA.
 
 ---
 
-## 8. Publication sans relecture substantielle
+### Cas 8 - Méga-prompt très détaillé
 
 **Situation**  
-Le contenu généré par IA est publié sans validation critique approfondie.
+L’auteur donne des instructions extrêmement précises à une IA afin d’obtenir un texte proche de son intention initiale.
 
 **Label recommandé**  
-**AIC**
+`HCE` ou `ACE` selon le degré réel de marge laissé à l’IA
 
-**Pourquoi**  
-L’humain ne peut pas revendiquer une responsabilité éditoriale forte sans relecture réelle.
+**Justification**  
+Si l’IA se contente d’exécuter une intention déjà totalement structurée, `HCE` peut être défendable. Si elle arbitre réellement la structure, les formulations-clés ou le développement, `ACE` est plus prudent.
 
 ---
 
-## 9. Code généré puis optimisé
+## Cas liés au code
+
+### Cas 9 - Correction légère d’un code humain
 
 **Situation**  
-Du code est généré par IA, puis corrigé et intégré par un développeur.
+Le développeur écrit seul son code et utilise l’IA pour repérer des fautes mineures, améliorer une syntaxe ou corriger des détails locaux.
 
 **Label recommandé**  
-**ACE**
+`HCA` ou `HCE` selon la nature de l’intervention
 
-**Pourquoi**  
-Dans le code, la logique et sa forme sont étroitement liées.
+**Justification**  
+Une correction purement technique peut relever de `HCA`. Une reformulation plus large, une refactorisation ou une aide plus significative sur l’expression du code relèvent plutôt de `HCE`.
 
 ---
 
-## 10. Projet composite
+### Cas 10 - Fonction générée par IA puis adaptée
 
 **Situation**  
-Un projet comprend différents composants, par exemple texte HCE, image AIC et code ACE.
+L’IA génère une fonction, une logique métier ou une portion substantielle de code, ensuite corrigée ou optimisée par un humain.
 
 **Label recommandé**  
-**Label global prudent** ou **labellisation par composant**
+`ACE`
 
-**Pourquoi**  
-Le composant le plus automatisé ne doit pas être invisibilisé.
+**Justification**  
+Lorsque l’IA produit une partie structurante du comportement ou de la logique, elle contribue au fond du code.
 
 ---
 
-## 11. Cas avec support visuel
+### Cas 11 - Code largement généré puis validé
 
 **Situation**  
-Un contenu textuel est humain, mais il utilise des badges, logos, icônes ou éléments visuels issus des ressources du projet pour clarifier sa labellisation.
+L’essentiel du code provient de l’IA, l’humain sélectionnant, testant ou ajustant légèrement le résultat.
 
 **Label recommandé**  
-Le label du contenu principal ne change pas du seul fait de l’usage d’un asset visuel de référence.
+`AIC`
 
-**Pourquoi**  
-Les assets de [`assets/`](./assets) servent à représenter ou communiquer le protocole ; ils ne modifient pas à eux seuls la nature du processus de création du contenu principal.
+**Justification**  
+La génération domine le processus. La validation humaine ne suffit pas à rétablir une maîtrise intellectuelle substantielle sur l’ensemble du contenu.
 
 ---
 
-## 12. Asset généré ou retravaillé par IA
+## Cas liés aux images
+
+### Cas 12 - Image créée sans IA
 
 **Situation**  
-Un badge, une icône ou un visuel documentaire est créé ou modifié avec assistance IA pour illustrer le protocole.
+Une image est conçue et produite sans recours à un générateur IA.
 
 **Label recommandé**  
-À documenter si le visuel devient substantiel dans l’explication publique, sans confondre le statut de l’asset avec celui du protocole lui-même.
+`HUC`
 
-**Pourquoi**  
-Un asset peut avoir son propre mode de production. Il faut éviter d’en déduire mécaniquement la qualification du contenu doctrinal qui l’accompagne.
+**Justification**  
+La création relève entièrement d’un processus humain.
 
 ---
 
-## Contribuer à ce fichier
+### Cas 13 - Image générée par IA avec retouches mineures
 
-Si vous souhaitez proposer un nouveau cas :
+**Situation**  
+Une image est générée par IA puis légèrement recadrée, nettoyée ou ajustée.
 
-1. ouvrez une issue,
-2. décrivez précisément le workflow,
-3. expliquez le point d’ambiguïté,
-4. proposez un label et une justification,
-5. indiquez quel fichier de `docs/` devrait idéalement être mis à jour,
-6. mentionnez l’asset concerné si le cas implique un élément visuel de `assets/`.
+**Label recommandé**  
+`AIC`
+
+**Justification**  
+Des retouches mineures ne changent pas la logique principale de production.
+
+---
+
+### Cas 14 - Image générée par IA puis profondément retravaillée
+
+**Situation**  
+Une image issue d’une génération IA fait ensuite l’objet d’une intervention humaine importante : recomposition, ajout d’éléments, modification significative du sujet ou reconstruction visuelle.
+
+**Label recommandé**  
+`ACE`
+
+**Justification**  
+L’image résulte alors d’une co-construction substantielle.
+
+---
+
+## Cas liés aux documents composites
+
+### Cas 15 - Article avec texte humain et image IA
+
+**Situation**  
+Un article est rédigé par un humain, mais l’illustration principale est générée par IA.
+
+**Label recommandé**  
+`HUC`, `HCA`, `HCE` ou `ACE` pour le texte selon le cas, et `AIC` pour l’image
+
+**Justification**  
+Un étiquetage modulaire est préférable lorsque plusieurs composants du document relèvent de logiques différentes.
+
+---
+
+### Cas 16 - Document mixte avec plusieurs méthodes de production
+
+**Situation**  
+Un document combine, par exemple, une introduction humaine, un tableau reformulé par IA et une image générée.
+
+**Label recommandé**  
+Étiquetage modulaire recommandé  
+ou label global prudent si un seul label doit être affiché
+
+**Justification**  
+Pour les contenus hétérogènes, un seul label global peut masquer la réalité du processus. Si un label unique est imposé, il doit rester prudent.
+
+---
+
+### Cas 17 - Choix d’un label global unique
+
+**Situation**  
+Le support de publication ne permet d’afficher qu’un seul label pour un document dont les composants ont été produits différemment.
+
+**Label recommandé**  
+Le label global le plus prudent compatible avec l’ensemble
+
+**Justification**  
+Il vaut mieux simplifier avec prudence que donner une image faussement plus humaine du processus réel.
+
+---
+
+## Cas liés au travail collectif
+
+### Cas 18 - Travail d’équipe avec usages IA différents
+
+**Situation**  
+Plusieurs personnes contribuent au même document, avec des niveaux d’usage de l’IA différents selon les sections ou les rôles.
+
+**Label recommandé**  
+Étiquetage modulaire si possible  
+sinon label global prudent
+
+**Justification**  
+Le protocole décrit un processus de production. Si les méthodes divergent selon les parties, un affichage différencié est plus fidèle.
+
+---
+
+### Cas 19 - Validation humaine d’un contenu très généré
+
+**Situation**  
+Une équipe humaine relit, approuve et publie un contenu largement généré par IA.
+
+**Label recommandé**  
+`AIC`
+
+**Justification**  
+La validation humaine ne transforme pas à elle seule un contenu majoritairement généré en contenu intellectuellement humain.
+
+---
+
+## Frontières d’interprétation importantes
+
+### HCA ou HCE ?
+
+Choisir `HCA` si l’IA reste cantonnée à une correction technique sans effet notable sur le style, le ton ou la formulation.
+
+Choisir `HCE` si l’IA améliore réellement l’expression, reformule, traduit, fluidifie ou réécrit certains segments.
+
+---
+
+### HCE ou ACE ?
+
+Choisir `HCE` si l’humain conserve seul le fond, le plan, l’intention et la structure intellectuelle.
+
+Choisir `ACE` dès que l’IA intervient de manière significative sur le plan, l’angle, la hiérarchisation des idées, le premier jet structurant ou la construction du raisonnement.
+
+---
+
+### ACE ou AIC ?
+
+Choisir `ACE` si l’humain garde un rôle fort de pilotage, de transformation et de co-construction.
+
+Choisir `AIC` si l’IA produit l’essentiel du contenu final et que l’intervention humaine se limite principalement à demander, choisir, valider ou ajuster légèrement.
+
+---
+
+## Cas à documenter ultérieurement
+
+Cette section peut être enrichie au fil du projet. Des développements complémentaires pourront porter sur :
+
+- l’audio ;
+- la vidéo ;
+- les présentations ;
+- les supports pédagogiques ;
+- les contenus interactifs ;
+- les usages en entreprise ;
+- les usages institutionnels ;
+- les métadonnées et formes d’intégration publique.
+
+---
+
+## Méthode de mise à jour
+
+Les nouveaux cas peuvent être proposés :
+
+- via une issue ;
+- via une pull request ;
+- via un retour d’usage documenté ;
+- via une contradiction observée dans la documentation existante.
+
+Merci de consulter `CONTRIBUTING.md` avant de proposer une modification.
+
+---
+
+## Remarque finale
+
+Ce document n’a pas vocation à épuiser tous les cas possibles. Il sert à stabiliser des repères d’interprétation dans l’esprit de TCP/UP : sincérité déclarative, prudence, lisibilité publique et responsabilité humaine.

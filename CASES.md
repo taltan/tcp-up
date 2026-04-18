@@ -1,161 +1,163 @@
-# CASES - Cas d’usage et arbitrages
+# CASES - Cas d’usage et arbitrages transversaux
 
-Ce document regroupe des cas concrets pour aider à choisir le label TCP/UP le plus cohérent.
+Ce document rassemble des cas types pour aider à interpréter le protocole TCP/UP.
 
-## Règle générale
+Il complète les documents du dossier [`docs/`](./docs), qui constituent le cœur contributif du projet.
 
-En cas d’hésitation entre deux labels, choisir celui qui attribue la part la plus importante à l’IA.
+## Rôle de ce fichier
+
+`CASES.md` a vocation à :
+
+- documenter des arbitrages fréquents,
+- pointer des zones de tension entre labels,
+- orienter les discussions ouvertes en issue,
+- servir de passerelle entre les principes généraux et les fichiers détaillés de `docs/`.
+
+Les propositions de nouveaux cas peuvent donner lieu ensuite à des mises à jour dans :
+
+- `docs/documentation.md`
+- `docs/faq.md`
+- `docs/logique-labels.md`
+- `docs/labels/*.md`
 
 ---
 
 ## 1. Correction orthographique uniquement
 
 **Situation**  
-Un texte rédigé par un humain est passé dans un correcteur pour corriger uniquement fautes, accords ou ponctuation.
+Un texte humain est relu par un correcteur automatique qui corrige uniquement orthographe, accords ou ponctuation.
 
 **Label recommandé**  
 **HCA**
 
 **Pourquoi**  
-Le fond et la forme éditoriale restent humains. L’IA n’intervient que comme correcteur technique.
+Le fond et la forme éditoriale restent humains. L’IA ne joue qu’un rôle de correction technique.
 
 ---
 
 ## 2. Reformulation de style
 
 **Situation**  
-L’auteur demande à une IA de rendre un texte plus fluide, plus diplomatique ou plus lisible, sans changer l’intention de départ.
+L’auteur demande une reformulation plus fluide, diplomatique ou lisible, sans changement intentionnel du fond.
 
 **Label recommandé**  
 **HCE**
 
 **Pourquoi**  
-Le fond reste humain, mais la formulation finale est assistée par IA.
+Le fond reste humain mais la formulation finale est assistée par IA.
 
 ---
 
 ## 3. Traduction avec relecture humaine
 
 **Situation**  
-Un texte d’origine humaine est traduit par IA puis relu et validé par l’auteur.
+Un texte d’origine humaine est traduit par IA puis relu et validé par son auteur.
 
 **Label recommandé**  
 **HCE**
 
 **Pourquoi**  
-L’idée reste humaine, mais la forme dans la langue cible a été produite par l’outil.
+L’idée reste humaine, mais la forme dans la langue cible est produite par l’outil.
 
 ---
 
-## 4. L’IA propose le plan
+## 4. Plan proposé par IA
 
 **Situation**  
-L’auteur demande un plan ou une structure, puis rédige lui-même le contenu.
+L’IA suggère un plan ou une structure avant une rédaction entièrement humaine.
 
 **Label recommandé**  
 **ACE**
 
 **Pourquoi**  
-L’IA a contribué à l’architecture intellectuelle initiale. La règle de la page blanche fait pencher vers la série A.
+L’IA a contribué à l’architecture intellectuelle initiale.
 
 ---
 
 ## 5. Brouillon généré puis fortement réécrit
 
 **Situation**  
-L’IA produit un premier texte complet, ensuite l’humain le réécrit largement, corrige, restructure et enrichit.
+L’IA génère un texte complet, ensuite largement repris, restructuré et enrichi par un humain.
 
 **Label recommandé**  
 **ACE**
 
 **Pourquoi**  
-Même si la version finale est fortement retravaillée, l’impulsion structurelle initiale vient de l’IA.
+Même retravaillée, la première impulsion structurelle vient de l’IA.
 
 ---
 
 ## 6. Sélection parmi plusieurs sorties IA
 
 **Situation**  
-L’utilisateur génère plusieurs textes avec une IA et choisit simplement le meilleur.
+L’utilisateur génère plusieurs textes et choisit le meilleur sans réécriture substantielle.
 
 **Label recommandé**  
 **AIC**
 
 **Pourquoi**  
-La sélection seule ne constitue pas une co-construction substantielle.
+La sélection seule ne constitue pas une co-construction forte.
 
 ---
 
 ## 7. Mega-prompt très détaillé
 
 **Situation**  
-L’humain fournit un prompt très structuré contenant déjà thèse, arguments, sources, ton et plan détaillé ; l’IA met ensuite en mots.
+Le prompt contient déjà l’architecture intellectuelle, les arguments, le ton et les contraintes du texte.
 
 **Label recommandé**  
 **HCE** ou **ACE** selon influence réelle de l’IA
 
 **Pourquoi**  
-Si toute l’architecture intellectuelle est déjà présente dans le prompt, HCE peut être justifié. Si l’IA infléchit le sens, la structure ou les angles, ACE est plus prudent.
+Si l’IA ne fait que mettre en mots une structure déjà entièrement pensée, HCE peut se défendre. Si elle réoriente la structure ou ajoute des angles non prévus, ACE est plus prudent.
 
 ---
 
-## 8. Publication sans relecture réelle
+## 8. Publication sans relecture substantielle
 
 **Situation**  
-Un contenu généré par IA est publié presque tel quel, avec validation superficielle.
+Le contenu généré par IA est publié sans validation critique approfondie.
 
 **Label recommandé**  
 **AIC**
 
 **Pourquoi**  
-Sans relecture critique substantielle, l’humain ne peut pas réellement revendiquer une maîtrise éditoriale forte.
+L’humain ne peut pas revendiquer une responsabilité éditoriale forte sans relecture réelle.
 
 ---
 
-## 9. Code généré puis débogué
+## 9. Code généré puis optimisé
 
 **Situation**  
-Une fonction ou un bloc de code est généré par IA, puis corrigé, optimisé et intégré par un développeur.
+Du code est généré par IA, puis corrigé et intégré par un développeur.
 
 **Label recommandé**  
 **ACE**
 
 **Pourquoi**  
-En code, fond logique et forme sont étroitement liés. La génération initiale garde un poids important.
+Dans le code, la logique et sa forme sont étroitement liées.
 
 ---
 
 ## 10. Projet composite
 
 **Situation**  
-Un projet combine par exemple un texte HCE, une image AIC et du code ACE.
+Un projet comprend différents composants, par exemple texte HCE, image AIC et code ACE.
 
 **Label recommandé**  
 **Label global prudent** ou **labellisation par composant**
 
 **Pourquoi**  
-Si le projet est perçu comme un tout, le label global doit refléter le composant le plus automatisé. Si possible, une déclaration modulaire est préférable.
+Le composant le plus automatisé ne doit pas être invisibilisé.
 
 ---
 
-## 11. Révision dans le temps
+## Contribuer à ce fichier
 
-**Situation**  
-Un contenu d’abord généré par IA est progressivement réécrit, enrichi et stabilisé par un humain.
+Si vous souhaitez proposer un nouveau cas :
 
-**Label recommandé**  
-Le label doit refléter l’**état actuel** du contenu, avec mention de l’évolution si utile.
-
-**Pourquoi**  
-TCP/UP décrit la version publiée, pas nécessairement tout l’historique, même si un changelog peut renforcer la transparence.
-
----
-
-## Proposition de nouveau cas
-
-Pour proposer un nouveau cas :
-
-- décrire précisément le workflow,
-- indiquer à quel moment l’IA intervient,
-- expliquer ce qui rend l’arbitrage difficile,
-- proposer un label et sa justification.
+1. ouvrez une issue,
+2. décrivez précisément le workflow,
+3. expliquez le point d’ambiguïté,
+4. proposez un label et une justification,
+5. indiquez quel fichier de `docs/` devrait idéalement être mis à jour.

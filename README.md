@@ -1,25 +1,42 @@
 # TCP/UP
 
-> **Protocole déclaratif de transparence** sur le rôle de l’humain et de l’IA dans la création de contenu.
+> Protocole déclaratif de transparence sur le rôle de l’humain et de l’IA dans la création de contenu.
 
-[![Statut](https://img.shields.io/badge/statut-brouillon-blue)](#statut-actuel)
-[![Version](https://img.shields.io/badge/version-0.1.0-black)](#statut-actuel)
+[![Statut](https://img.shields.io/badge/statut-brouillon_public-blue)](#statut-du-projet)
+[![Version](https://img.shields.io/badge/version-0.1.0-black)](#statut-du-projet)
 [![Licence](https://img.shields.io/badge/licence-CC_BY_4.0-green)](#licence)
 
-TCP/UP aide à **rendre visible** la part respective de l’intention humaine et de l’assistance algorithmique dans un contenu.
+TCP/UP vise à rendre lisible, de bonne foi, la part respective de l’intention humaine et de l’assistance algorithmique dans un contenu publié.
 
 ---
 
-## En une phrase
+## Ce dépôt
 
-TCP/UP propose une grille simple de labels pour déclarer, de bonne foi, comment un contenu a été produit.
+Ce dépôt GitHub est le **lieu de travail documentaire** du protocole TCP/UP.
 
-## Ce que TCP/UP est
+Le cœur contributif du projet se trouve dans le dossier [`docs/`](./docs), en particulier :
+
+- `docs/manifeste.md`
+- `docs/logique-labels.md`
+- `docs/documentation.md`
+- `docs/faq.md`
+- `docs/ethique.md`
+- `docs/labels/label-huc.md`
+- `docs/labels/label-hca.md`
+- `docs/labels/label-hce.md`
+- `docs/labels/label-ace.md`
+- `docs/labels/label-aic.md`
+
+C’est **principalement sur ces fichiers** que les contributions sont attendues, via **issues** et **pull requests**.
+
+---
+
+## Ce qu’est TCP/UP
 
 - Un protocole public de labellisation
 - Un langage commun de transparence
 - Un cadre déclaratif fondé sur la bonne foi
-- Une initiative documentaire et évolutive
+- Une initiative documentaire, critique et évolutive
 
 ## Ce que TCP/UP n’est pas
 
@@ -34,7 +51,7 @@ TCP/UP propose une grille simple de labels pour déclarer, de bonne foi, comment
 
 | Label | Signification | Usage typique |
 |---|---|---|
-| **HUC** | 100 % humain, sans IA | Écriture ou création entièrement humaine |
+| **HUC** | 100 % humain, sans IA | Création entièrement humaine |
 | **HCA** | Humain + correction technique IA | Orthographe, grammaire, nettoyage formel |
 | **HCE** | Fond humain, formulation assistée par IA | Reformulation, ton, traduction relue |
 | **ACE** | Co-construction humain / IA | Plan, idées, structure partagée |
@@ -42,54 +59,66 @@ TCP/UP propose une grille simple de labels pour déclarer, de bonne foi, comment
 
 ---
 
-## Démarrage rapide
+## Comment contribuer
 
-1. Lire `SPECIFICATION.md`
-2. Consulter `CASES.md`
-3. Ouvrir une issue si un cas est ambigu
-4. Proposer une clarification si nécessaire
+La meilleure façon de contribuer est de :
 
----
+1. lire les documents dans `docs/`,
+2. signaler un cas ambigu ou une contradiction via une issue,
+3. proposer une clarification de formulation,
+4. ouvrir une pull request ciblée si vous avez une proposition de modification.
 
-## Contenu du dépôt
-
-- `README.md` - vue d’ensemble du projet
-- `SPECIFICATION.md` - définition du protocole
-- `CASES.md` - cas d’usage et arbitrages
-- `GOVERNANCE.md` - mode d’évolution du projet
-- `CONTRIBUTING.md` - règles de contribution
-- `.github/ISSUE_TEMPLATE/protocol-case.md` - modèle d’issue
-- `CHANGELOG.md` - historique des versions
+Merci de lire [`CONTRIBUTING.md`](./CONTRIBUTING.md) avant de contribuer.
 
 ---
 
-## Statut actuel
+## Structure du dépôt
 
-**Version :** 0.1.0  
+```text
+.
+├── README.md
+├── SPECIFICATION.md
+├── CASES.md
+├── CONTRIBUTING.md
+├── GOVERNANCE.md
+├── CHANGELOG.md
+├── LICENSE
+├── .github/
+│   └── ISSUE_TEMPLATE/
+│       └── protocol-case.md
+└── docs/
+    ├── manifeste.md
+    ├── logique-labels.md
+    ├── documentation.md
+    ├── faq.md
+    ├── ethique.md
+    └── labels/
+        ├── label-huc.md
+        ├── label-hca.md
+        ├── label-hce.md
+        ├── label-ace.md
+        └── label-aic.md
+```
+
+---
+
+## Rôle des fichiers racine
+
+- `README.md` : point d’entrée du dépôt
+- `SPECIFICATION.md` : synthèse normative courte du protocole
+- `CASES.md` : cas d’usage transversaux et arbitrages
+- `CONTRIBUTING.md` : règles de contribution
+- `GOVERNANCE.md` : mode d’évolution du projet
+- `CHANGELOG.md` : historique des changements
+- `LICENSE` : cadre de réutilisation
+
+---
+
+## Statut du projet
+
+**Version actuelle :** 0.1.0  
 **Maturité :** brouillon public  
-**Gouvernance :** mainteneur principal, ouverture progressive à contribution
-
----
-
-## Principes directeurs
-
-- **Clarté** : permettre au lecteur de comprendre qui a fait quoi
-- **Prudence** : en cas de doute, attribuer davantage à l’IA
-- **Responsabilité** : le publieur assume son étiquetage
-- **Simplicité** : conserver un cadre lisible et praticable
-
----
-
-## Contribuer
-
-Les contributions utiles incluent :
-
-- cas limites,
-- scénarios contradictoires,
-- propositions de formulation,
-- exemples issus du journalisme, de l’éducation, du droit, du design, du code ou de la documentation.
-
-Merci de lire `CONTRIBUTING.md` avant toute issue ou pull request.
+**Mode de contribution privilégié :** issues et pull requests sur les documents de `docs/`
 
 ---
 
@@ -102,5 +131,5 @@ Merci de lire `CONTRIBUTING.md` avant toute issue ou pull request.
 
 ## Licence
 
-Le contenu documentaire est publié sous **CC BY 4.0**, sauf mention contraire.  
+Le contenu documentaire du dépôt est publié sous **CC BY 4.0**, sauf mention contraire.  
 Les logos, badges, la marque et l’identité visuelle restent exclus par défaut.

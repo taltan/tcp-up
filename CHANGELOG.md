@@ -1,20 +1,22 @@
 # Journal des modifications
 
-Toutes les évolutions notables du projet seront documentées dans ce fichier.
+Toutes les évolutions notables du projet sont documentées dans ce fichier.
 
 ## [Non publié]
 
 ### Prévu
-- Ajouter des formulations multilingues
-- Ajouter des exemples canoniques de métadonnées
-- Ajouter une matrice de décision pour les cas limites
+- Harmoniser les fichiers de `docs/` avec la structure contributive du dépôt
+- Ajouter d’autres cas limites dans `CASES.md`
+- Ajouter des renvois croisés entre `CASES.md` et `docs/labels/`
+- Mieux distinguer les fichiers stables des fichiers fortement contributifs
 
 ## [0.1.0] - 2026-04-18
 
 ### Ajouté
-- Structure initiale du dépôt
-- README initial
-- Brouillon de la spécification
-- Première note de gouvernance
-- Guide initial de contribution
-- Journal des modifications
+- Mise en place d’un dépôt documentaire centré sur `docs/`
+- Définition du rôle contributif des fichiers de `docs/`
+- README révisé pour orienter les contributions vers `docs/`
+- CONTRIBUTING révisé pour privilégier issues et pull requests documentaires
+- GOVERNANCE révisé pour clarifier le centre de gravité du projet
+- CASES révisé comme document transversal d’arbitrage
+- SPECIFICATION révisée comme synthèse courte du protocole

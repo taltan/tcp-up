@@ -2,61 +2,97 @@
 
 Merci de vouloir améliorer TCP/UP.
 
-## 1. Avant de contribuer
+## 1. Philosophie générale
 
-Merci de lire :
-- `README.md`
-- `SPECIFICATION.md`
-- `GOVERNANCE.md`
+TCP/UP est un projet documentaire et évolutif.
 
-## 2. Types de contributions utiles
+Les contributions sont principalement attendues sur les documents du dossier [`docs/`](./docs), qui constituent le cœur du protocole :
 
-Les contributions particulièrement utiles sont :
-- les cas limites,
-- les améliorations de formulation,
-- les scénarios contradictoires,
-- les exemples issus de l’édition, de l’éducation, du journalisme, du droit, du design, du code ou de la documentation,
-- les adaptations multilingues,
-- les corrections et clarifications.
+- `docs/manifeste.md`
+- `docs/logique-labels.md`
+- `docs/documentation.md`
+- `docs/faq.md`
+- `docs/ethique.md`
+- `docs/labels/*.md`
 
-## 3. Règles de contribution
+Le but n’est pas d’accumuler des modifications dispersées, mais d’améliorer la clarté, la cohérence et l’utilité du protocole.
+
+## 2. Avant de contribuer
+
+Merci de lire au minimum :
+
+- [`README.md`](./README.md)
+- [`SPECIFICATION.md`](./SPECIFICATION.md)
+- [`CASES.md`](./CASES.md)
+- [`GOVERNANCE.md`](./GOVERNANCE.md)
+
+## 3. Formes de contribution privilégiées
+
+Les contributions les plus utiles sont :
+
+- signaler un cas limite,
+- identifier une contradiction,
+- proposer une meilleure formulation,
+- ajouter un exemple concret,
+- préciser une distinction entre deux labels,
+- suggérer une amélioration de structure documentaire.
+
+## 4. Mode de contribution recommandé
+
+### A. Ouvrir une issue
+
+Ouvrez d’abord une issue si :
+
+- le cas est ambigu,
+- la modification est substantielle,
+- plusieurs interprétations semblent possibles,
+- vous souhaitez discuter avant de rédiger une proposition.
+
+### B. Ouvrir une pull request
+
+Vous pouvez ouvrir directement une pull request si :
+
+- il s’agit d’une correction claire,
+- vous proposez une reformulation ciblée,
+- vous ajoutez un exemple bien cadré,
+- vous corrigez une incohérence identifiée.
+
+## 5. Règles de contribution
 
 - Une issue ou une pull request par sujet
-- Être concret et explicite
-- Préférer les exemples aux abstractions
-- Expliquer pourquoi la formulation actuelle est insuffisante
-- Proposer si possible une meilleure formulation
+- Être précis et concret
+- Préférer les exemples aux principes abstraits
+- Justifier les changements proposés
+- Indiquer le ou les fichiers concernés
+- Rester fidèle à l’esprit déclaratif et prudent du protocole
 
-## 4. Modèle conseillé pour une issue
+## 6. Modèle conseillé pour une contribution
 
-### Titre
-Court et précis
+Merci d’indiquer :
 
-### Contexte
-Décrivez la situation ou le flux de travail concerné
+- le **contexte**,
+- le **workflow réel**,
+- le **point d’ambiguïté**,
+- le **label proposé**,
+- la **justification**,
+- le **fichier à modifier** dans `docs/`.
 
-### Problème
-Expliquez ce qui est flou, contradictoire ou incomplet
+## 7. Ce qu’il vaut mieux éviter
 
-### Interprétation proposée
-Indiquez le label ou la formulation que vous jugez plus approprié
+- les contributions trop vagues,
+- les reformulations purement cosmétiques sans justification,
+- les modifications massives de plusieurs fichiers sans discussion préalable,
+- les propositions qui transforment TCP/UP en système de détection ou de certification sans débat de fond.
 
-### Pourquoi c’est important
-Expliquez l’impact pour le lecteur, l’auteur ou la gouvernance
+## 8. Ton attendu
 
-## 5. Ton attendu
+Merci de garder des échanges :
 
-Merci de garder des contributions :
-- respectueuses,
-- factuelles,
-- concises,
-- ouvertes à la contradiction.
+- respectueux,
+- factuels,
+- concis,
+- ouverts à la contradiction.
 
-## 6. Pull requests
+## 9. Décision finale
 
-Les pull requests sont bienvenues pour :
-- les modifications documentaires,
-- la clarification des labels,
-- l’ajout d’exemples,
-- les corrections typographiques,
-- l’amélioration de la structure du dépôt.
+Le mainteneur du projet reste responsable de l’intégration finale des contributions, en cohérence avec [`GOVERNANCE.md`](./GOVERNANCE.md).

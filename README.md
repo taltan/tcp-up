@@ -189,4 +189,4 @@ Les logos, badges, la marque et l’identité visuelle restent exclus par défau
 
 TCP/UP est une initiative citoyenne, non certifiante, conçue pour fournir une boussole éthique et pratique face à la montée des contenus assistés ou générés par IA. Son efficacité repose moins sur la preuve technique que sur la sincérité déclarative, la cohérence dans le temps et la responsabilité assumée par l’auteur.
 
-[![TCP/UP: HUC](https://tcp-up.org/img/badges/badge_huc_co.svg)](https://tcp-up.org)
+[![TCP/UP: HUC](https://tcp-up.free.nf/img/badges/badge_huc_co.svg)](https://tcp-up.org)

@@ -8,7 +8,7 @@ La gouvernance est volontairement légère à ce stade, afin de permettre une é
 
 ## 2. Centre de gravité du projet
 
-Le cœur vivant et contributif du projet se situe dans le dossier [`docs/`](./docs).
+Le cœur vivant et contributif du projet se situe dans le dossier [`docs/`](./docs). Les éléments visuels de référence peuvent résider dans [`assets/`](./assets) lorsqu’ils servent le protocole ou sa documentation.
 
 C’est dans ces fichiers que se construisent :
 
@@ -26,7 +26,8 @@ Les évolutions peuvent être proposées via :
 - des pull requests,
 - des cas d’usage argumentés,
 - des contradictions relevées dans les documents,
-- des propositions de clarification.
+- des propositions de clarification,
+- des suggestions d’amélioration visuelle utiles à la compréhension ou à la diffusion du protocole.
 
 ## 4. Principes de décision
 
@@ -54,9 +55,26 @@ Tous les fichiers ne jouent pas le même rôle :
 - `README.md` est plutôt stable et synthétique,
 - `SPECIFICATION.md` reste volontairement court et cadrant,
 - `CASES.md` est évolutif,
-- `docs/` constitue l’espace principal de maturation du protocole.
+- `docs/` constitue l’espace principal de maturation du protocole,
+- `assets/` contient des ressources de référence pouvant évoluer, mais sans se substituer au cœur doctrinal du projet.
 
-## 7. Trajectoire future
+## 7. Décision sur les assets
+
+Les assets ne constituent pas la norme elle-même. Ils servent à :
+
+- illustrer les labels,
+- rendre le protocole plus lisible,
+- faciliter sa diffusion,
+- fournir des supports visuels cohérents.
+
+Les décisions portant sur `assets/` doivent rester compatibles avec :
+
+- la doctrine du protocole,
+- la cohérence visuelle du projet,
+- la lisibilité publique,
+- le statut non certifiant de TCP/UP.
+
+## 8. Trajectoire future
 
 À terme, TCP/UP pourra évoluer vers une gouvernance plus ouverte, pouvant inclure :
 
@@ -65,7 +83,7 @@ Tous les fichiers ne jouent pas le même rôle :
 - une consultation plus formalisée,
 - un processus de révision publique sur certains changements majeurs.
 
-## 8. Limite importante
+## 9. Limite importante
 
 La gouvernance de TCP/UP n’en fait pas une autorité de certification.  
 Le projet reste une initiative déclarative de transparence, fondée sur la responsabilité du publieur.

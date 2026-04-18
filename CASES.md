@@ -2,7 +2,7 @@
 
 Ce document rassemble des cas types pour aider à interpréter le protocole TCP/UP.
 
-Il complète les documents du dossier [`docs/`](./docs), qui constituent le cœur contributif du projet.
+Il complète les documents du dossier [`docs/`](./docs), qui constituent le cœur contributif du projet. Les visuels de référence éventuellement associés peuvent être conservés dans [`assets/`](./assets).
 
 ## Rôle de ce fichier
 
@@ -152,6 +152,32 @@ Le composant le plus automatisé ne doit pas être invisibilisé.
 
 ---
 
+## 11. Cas avec support visuel
+
+**Situation**  
+Un contenu textuel est humain, mais il utilise des badges, logos, icônes ou éléments visuels issus des ressources du projet pour clarifier sa labellisation.
+
+**Label recommandé**  
+Le label du contenu principal ne change pas du seul fait de l’usage d’un asset visuel de référence.
+
+**Pourquoi**  
+Les assets de [`assets/`](./assets) servent à représenter ou communiquer le protocole ; ils ne modifient pas à eux seuls la nature du processus de création du contenu principal.
+
+---
+
+## 12. Asset généré ou retravaillé par IA
+
+**Situation**  
+Un badge, une icône ou un visuel documentaire est créé ou modifié avec assistance IA pour illustrer le protocole.
+
+**Label recommandé**  
+À documenter si le visuel devient substantiel dans l’explication publique, sans confondre le statut de l’asset avec celui du protocole lui-même.
+
+**Pourquoi**  
+Un asset peut avoir son propre mode de production. Il faut éviter d’en déduire mécaniquement la qualification du contenu doctrinal qui l’accompagne.
+
+---
+
 ## Contribuer à ce fichier
 
 Si vous souhaitez proposer un nouveau cas :
@@ -160,4 +186,5 @@ Si vous souhaitez proposer un nouveau cas :
 2. décrivez précisément le workflow,
 3. expliquez le point d’ambiguïté,
 4. proposez un label et une justification,
-5. indiquez quel fichier de `docs/` devrait idéalement être mis à jour.
+5. indiquez quel fichier de `docs/` devrait idéalement être mis à jour,
+6. mentionnez l’asset concerné si le cas implique un élément visuel de `assets/`.

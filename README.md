@@ -4,7 +4,7 @@
 
 [![Statut](https://img.shields.io/badge/statut-brouillon_public-blue)](#statut-du-projet)
 [![Version](https://img.shields.io/badge/version-0.1.0-black)](#statut-du-projet)
-[![Licence](https://img.shields.io/badge/licence-CC_BY_4.0-green)](#licence)
+[![Licence](https://img.shields.io/badge/licence-CC_BY--SA_4.0-green)](#licence)
 
 TCP/UP vise à rendre lisible, de bonne foi, la part respective de l’intention humaine et de l’assistance algorithmique dans un contenu publié.
 

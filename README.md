@@ -1,7 +1,7 @@
 <p align="center">
   <img src="assets/logos/logo_tcp-up.webp" alt="TCP/UP Logo" width="200">
 </p>
-[![TCP/UP: HUC](https://tcp-up.free.nf/img/badges/badge_huc_co.svg)](https://tcp-up.free.nf)
+
 # TCP/UP
 
 > Protocole déclaratif de transparence sur le rôle de l’humain et de l’IA dans la création de contenu.

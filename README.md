@@ -176,3 +176,7 @@ Si vous devez signaler une vulnérabilité, une exposition involontaire d’info
 
 Le contenu documentaire du dépôt est publié sous **CC BY 4.0**, sauf mention contraire.  
 Les logos, badges, la marque et l’identité visuelle restent exclus par défaut.
+
+## Esprit du projet
+
+TCP/UP est une initiative citoyenne, non certifiante, conçue pour fournir une boussole éthique et pratique face à la montée des contenus assistés ou générés par IA. Son efficacité repose moins sur la preuve technique que sur la sincérité déclarative, la cohérence dans le temps et la responsabilité assumée par l’auteur.

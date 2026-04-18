@@ -8,7 +8,7 @@ Statut : brouillon public
 TCP/UP est un protocole déclaratif de transparence destiné à rendre visible le rôle respectif de l’humain et de l’intelligence artificielle dans la création d’un contenu.
 
 Cette spécification constitue une **synthèse courte** du protocole.  
-Les développements détaillés, exemples, arbitrages et formulations éditoriales sont maintenus dans le dossier [`docs/`](./docs).
+Les développements détaillés, exemples, arbitrages, formulations éditoriales et renvois visuels sont maintenus dans le dossier [`docs/`](./docs), avec des ressources graphiques éventuelles dans [`assets/`](./assets).
 
 ## 2. Périmètre
 
@@ -69,7 +69,7 @@ TCP/UP :
 
 ## 7. Référentiel contributif
 
-Le dossier [`docs/`](./docs) constitue l’espace principal de travail et de contribution du protocole.
+Le dossier [`docs/`](./docs) constitue l’espace principal de travail et de contribution du protocole ; [`assets/`](./assets) peut contenir les visuels de référence utiles à la documentation.
 
 Les contributions sont particulièrement attendues sur :
 
@@ -79,7 +79,18 @@ Les contributions sont particulièrement attendues sur :
 - `docs/ethique.md`
 - `docs/labels/`
 
-## 8. Documents liés
+## 8. Ressources visuelles
+
+Le dossier [`assets/`](./assets) peut notamment contenir :
+
+- les badges des labels,
+- les logos de référence,
+- les icônes associées au protocole,
+- des visuels de documentation ou de démonstration.
+
+Ces ressources ne remplacent pas la spécification textuelle, mais peuvent en faciliter la lecture, l’appropriation et la diffusion.
+
+## 9. Documents liés
 
 - [`README.md`](./README.md)
 - [`CASES.md`](./CASES.md)

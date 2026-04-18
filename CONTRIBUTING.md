@@ -1,142 +1,163 @@
 # Contribuer à TCP/UP
 
-Merci de vouloir améliorer TCP/UP.
+Merci de votre intérêt pour TCP/UP.
 
-## 1. Philosophie générale
+Ce dépôt est le lieu de travail documentaire du protocole. Les contributions sont bienvenues dès lors qu’elles visent à clarifier, renforcer ou documenter le protocole de manière utile, rigoureuse et lisible.
 
-TCP/UP est un projet documentaire et évolutif.
+---
 
-Les contributions sont principalement attendues sur les documents du dossier [`docs/`](./docs), qui constituent le cœur du protocole. Si une ressource visuelle est concernée, elle peut être ajoutée ou ajustée dans [`assets/`](./assets) lorsque cela sert la documentation :
+## Avant de contribuer
 
-- `docs/manifeste.md`
-- `docs/logique-labels.md`
-- `docs/documentation.md`
-- `docs/faq.md`
-- `docs/ethique.md`
-- `docs/labels/*.md`
-
-Le but n’est pas d’accumuler des modifications dispersées, mais d’améliorer la clarté, la cohérence et l’utilité du protocole.
-
-## 2. Avant de contribuer
-
-Merci de lire au minimum :
+Merci de lire d’abord :
 
 - [`README.md`](./README.md)
 - [`SPECIFICATION.md`](./SPECIFICATION.md)
 - [`CASES.md`](./CASES.md)
 - [`GOVERNANCE.md`](./GOVERNANCE.md)
 
-## 3. Ce sur quoi contribuer en priorité
+Le cœur contributif du projet se trouve dans le dossier [`docs/`](./docs).
 
-Les contributions les plus utiles concernent :
+---
 
-- les distinctions entre labels,
-- les cas limites,
-- les contradictions éventuelles entre documents,
-- les exemples,
-- les objections récurrentes,
-- les formulations trop floues ou trop catégoriques.
+## Où contribuer
 
-En priorité, les contributions sont attendues dans :
+Les contributions sont attendues en priorité sur les fichiers suivants :
 
+- `docs/manifeste.md`
 - `docs/logique-labels.md`
 - `docs/documentation.md`
 - `docs/faq.md`
 - `docs/ethique.md`
-- `docs/labels/`
+- `docs/labels/label-huc.md`
+- `docs/labels/label-hca.md`
+- `docs/labels/label-hce.md`
+- `docs/labels/label-ace.md`
+- `docs/labels/label-aic.md`
+- `CASES.md`
 
-Les ressources présentes dans `assets/` peuvent aussi faire l’objet de contributions si elles améliorent la lisibilité, la compréhension ou la diffusion du protocole.
+Les ressources visuelles de `assets/` peuvent également faire l’objet de remarques ou de propositions si cela améliore la lisibilité, la cohérence ou l’usage public du protocole.
 
-## 4. Formes de contribution privilégiées
+---
 
-Les contributions les plus utiles sont :
+## Ce que vous pouvez proposer
 
-- signaler un cas limite,
-- identifier une contradiction,
-- proposer une meilleure formulation,
-- ajouter un exemple concret,
-- préciser une distinction entre deux labels,
-- suggérer une amélioration de structure documentaire,
-- proposer un badge, un visuel ou une ressource graphique utile à la documentation.
+Les contributions utiles incluent notamment :
 
-## 5. Mode de contribution recommandé
+- un cas limite non couvert ;
+- une contradiction entre deux formulations ;
+- une clarification de définition ;
+- un meilleur exemple d’usage ;
+- une amélioration pédagogique ;
+- une reformulation plus précise ;
+- une correction typographique, terminologique ou structurelle ;
+- une question utile pouvant justifier une amélioration de la documentation.
 
-### A. Ouvrir une issue
+---
 
-Ouvrez d’abord une issue si :
+## Ce qui relève plutôt d’une issue
 
-- le cas est ambigu,
-- la modification est substantielle,
-- plusieurs interprétations semblent possibles,
-- vous souhaitez discuter avant de rédiger une proposition,
-- vous voulez suggérer un nouvel asset ou une modification visuelle importante.
+Ouvrez de préférence une **issue** si vous souhaitez :
 
-### B. Ouvrir une pull request
+- signaler un cas ambigu ;
+- poser une question générale ;
+- discuter d’un arbitrage entre deux labels ;
+- signaler une incohérence doctrinale ;
+- proposer une évolution avant de rédiger une modification.
 
-Vous pouvez ouvrir directement une pull request si :
+Le dépôt fournit des modèles d’issues dans `.github/ISSUE_TEMPLATE/` pour faciliter ces contributions.
 
-- il s’agit d’une correction claire,
-- vous proposez une reformulation ciblée,
-- vous ajoutez un exemple bien cadré,
-- vous corrigez une incohérence identifiée,
-- vous améliorez un asset déjà existant sans changer l’esprit visuel du projet.
+---
 
-## 6. Règles de contribution
+## Ce qui relève plutôt d’une pull request
 
-- Une issue ou une pull request par sujet
-- Être précis et concret
-- Préférer les exemples aux principes abstraits
-- Justifier les changements proposés
-- Indiquer le ou les fichiers concernés
-- Rester fidèle à l’esprit déclaratif et prudent du protocole
+Ouvrez de préférence une **pull request** si vous proposez déjà :
 
-## 7. Modèle conseillé pour une contribution
+- une correction ciblée ;
+- une clarification rédigée ;
+- une amélioration localisée de la documentation ;
+- une mise à jour cohérente d’un ou plusieurs fichiers.
 
-Merci d’indiquer :
+Si le sujet est important, ambigu ou structurant, il est préférable d’ouvrir d’abord une issue afin d’éviter les modifications prématurées ou mal alignées.
 
-- le **contexte**,
-- le **workflow réel**,
-- le **point d’ambiguïté**,
-- le **label proposé**,
-- la **justification**,
-- le **fichier à modifier** dans `docs/`,
-- et, si pertinent, l’asset concerné dans `assets/`.
+---
 
-## 8. Contribuer sur les assets
+## Règles de contribution
 
-Le dossier [`assets/`](./assets) contient les ressources visuelles de référence du projet, notamment :
+Merci de respecter les principes suivants :
 
-- les badges SVG,
-- les icônes,
-- les logos,
-- d’éventuels visuels de démonstration.
+- une contribution par sujet ;
+- un intitulé clair ;
+- des exemples concrets plutôt que des formulations trop abstraites ;
+- une justification explicite lorsque vous proposez une modification ;
+- une rédaction sobre, lisible et cohérente avec le reste du dépôt ;
+- une logique de clarification plutôt que de complexification.
 
-Les contributions sur `assets/` sont bienvenues lorsqu’elles :
+Le but n’est pas d’alourdir le protocole, mais de le rendre plus juste, plus clair et plus robuste.
 
-- clarifient la documentation,
-- améliorent la cohérence visuelle des labels,
-- facilitent la réutilisation publique du protocole,
-- restent compatibles avec l’identité du projet.
+---
 
-Les assets ne doivent pas devenir un espace de variantes décoratives sans usage documentaire clair.
+## Format conseillé pour une issue
 
-## 9. Ce qu’il vaut mieux éviter
+Lorsque vous ouvrez une issue, essayez d’indiquer :
 
-- les contributions trop vagues,
-- les reformulations purement cosmétiques sans justification,
-- les modifications massives de plusieurs fichiers sans discussion préalable,
-- les propositions qui transforment TCP/UP en système de détection ou de certification sans débat de fond,
-- l’ajout d’assets redondants, non stabilisés ou sans rôle clair.
+- le problème observé ;
+- le contexte ;
+- le ou les labels concernés ;
+- le ou les fichiers concernés ;
+- la difficulté d’interprétation ;
+- votre proposition de clarification, si vous en avez une.
 
-## 10. Ton attendu
+---
 
-Merci de garder des échanges :
+## Format conseillé pour une pull request
 
-- respectueux,
-- factuels,
-- concis,
-- ouverts à la contradiction.
+Lorsque vous ouvrez une pull request :
 
-## 11. Décision finale
+1. décrivez brièvement le problème traité ;
+2. indiquez les fichiers modifiés ;
+3. expliquez l’objectif de la modification ;
+4. gardez la proposition aussi ciblée que possible.
 
-Le mainteneur du projet reste responsable de l’intégration finale des contributions, en cohérence avec [`GOVERNANCE.md`](./GOVERNANCE.md).
+Les pull requests trop larges, mélangeant plusieurs sujets sans lien direct, sont plus difficiles à relire et à intégrer.
+
+---
+
+## Style rédactionnel attendu
+
+TCP/UP est un protocole déclaratif, lisible par des humains. Merci de privilégier :
+
+- une écriture claire ;
+- des phrases compréhensibles ;
+- une terminologie stable ;
+- un ton sobre ;
+- une cohérence avec les principes déjà posés dans la documentation.
+
+Si vous proposez une reformulation, essayez de préserver l’esprit du texte tout en améliorant sa précision.
+
+---
+
+## Bonne foi et esprit du projet
+
+TCP/UP repose sur une logique de bonne foi, de responsabilité et de transparence. Les contributions doivent s’inscrire dans cet esprit.
+
+Le but n’est pas de transformer le projet en système policier, ni de surpromettre ce qu’un protocole déclaratif peut garantir. Les propositions doivent rester compatibles avec la nature ouverte, non certifiante et évolutive de TCP/UP.
+
+---
+
+## Sécurité
+
+Si votre signalement concerne une vulnérabilité, une exposition involontaire d’information sensible, un problème touchant un asset officiel, un snippet ou un usage potentiellement trompeur, merci de consulter [`SECURITY.md`](./SECURITY.md) au lieu d’ouvrir directement une issue publique.
+
+---
+
+## Licence
+
+En contribuant à ce dépôt, vous acceptez que votre contribution puisse être discutée, modifiée, intégrée ou refusée par le mainteneur selon la cohérence générale du projet.
+
+Merci de consulter également [`LICENSE`](./LICENSE).
+
+---
+
+## Merci
+
+Merci de contribuer à rendre TCP/UP plus clair, plus utile et plus sincère.

@@ -1,89 +1,185 @@
-# Gouvernance
+# Gouvernance de TCP/UP
 
-## 1. Modèle actuel
+## Préambule
 
-TCP/UP est actuellement maintenu par son fondateur / mainteneur principal.
+TCP/UP est une initiative citoyenne de documentation et de clarification autour de la transparence des usages de l’intelligence artificielle dans la création de contenu.
 
-La gouvernance est volontairement légère à ce stade, afin de permettre une évolution progressive du protocole tout en gardant une cohérence d’ensemble.
+À ce stade, le projet repose sur une gouvernance légère, lisible et mainteneur-centrée. Ce choix vise à permettre une évolution cohérente du protocole tout en restant ouvert aux retours, aux cas limites, aux critiques argumentées et aux propositions d’amélioration.
 
-## 2. Centre de gravité du projet
+Cette gouvernance n’a pas pour objet de transformer TCP/UP en autorité de certification, en organisme de contrôle ou en instance normative officielle.
 
-Le cœur vivant et contributif du projet se situe dans le dossier [`docs/`](./docs). Les éléments visuels de référence peuvent résider dans [`assets/`](./assets) lorsqu’ils servent le protocole ou sa documentation.
+---
 
-C’est dans ces fichiers que se construisent :
+## Principes de gouvernance
 
-- la doctrine du protocole,
-- les distinctions entre labels,
-- les réponses aux objections,
-- les cas pratiques,
-- les arbitrages éditoriaux.
+La gouvernance du projet repose sur les principes suivants :
 
-## 3. Comment le projet évolue
+- clarté ;
+- cohérence ;
+- prudence ;
+- transparence ;
+- responsabilité éditoriale ;
+- évolutivité ;
+- ouverture à la critique argumentée.
 
-Les évolutions peuvent être proposées via :
+L’objectif n’est pas de multiplier les instances, mais de garantir un cadre de décision compréhensible et stable.
 
-- des issues GitHub,
-- des pull requests,
-- des cas d’usage argumentés,
-- des contradictions relevées dans les documents,
-- des propositions de clarification,
-- des suggestions d’amélioration visuelle utiles à la compréhension ou à la diffusion du protocole.
+---
 
-## 4. Principes de décision
+## Modèle actuel
 
-Les propositions sont évaluées selon :
+Le projet est actuellement maintenu selon un modèle simple :
 
-- la clarté,
-- la cohérence avec le protocole,
-- la fidélité à la réalité des usages,
-- la prudence dans les cas ambigus,
-- la lisibilité pour le public.
+- un mainteneur principal assure la cohérence générale du protocole ;
+- les contributions externes peuvent être proposées via issues et pull requests ;
+- les discussions documentaires et doctrinales sont encouragées ;
+- les décisions d’intégration, de reformulation, de report ou de refus relèvent du mainteneur.
 
-## 5. Politique de contribution
+Ce modèle est volontairement léger à ce stade du projet.
 
-Le projet privilégie actuellement :
+---
 
-- l’ouverture large des **issues** pour faire remonter les problèmes,
-- une ouverture raisonnée des **pull requests** pour proposer des corrections ou clarifications.
+## Rôle du mainteneur
 
-Toutes les contributions ne sont pas nécessairement intégrées telles quelles. Certaines peuvent être discutées, reformulées, déplacées dans un autre fichier ou reportées à une version ultérieure.
+Le mainteneur a notamment pour rôle de :
 
-## 6. Stabilité relative des fichiers
+- préserver la cohérence d’ensemble du protocole ;
+- arbitrer les propositions de clarification ;
+- décider de l’intégration ou non des contributions ;
+- veiller à la lisibilité publique du projet ;
+- éviter la complexification inutile ;
+- documenter les évolutions importantes.
 
-Tous les fichiers ne jouent pas le même rôle :
+Le mainteneur ne constitue pas une autorité de certification et n’accorde pas de validation officielle sur les usages publics du protocole.
 
-- `README.md` est plutôt stable et synthétique,
-- `SPECIFICATION.md` reste volontairement court et cadrant,
-- `CASES.md` est évolutif,
-- `docs/` constitue l’espace principal de maturation du protocole,
-- `assets/` contient des ressources de référence pouvant évoluer, mais sans se substituer au cœur doctrinal du projet.
+---
 
-## 7. Décision sur les assets
+## Contributions et délibération
 
-Les assets ne constituent pas la norme elle-même. Ils servent à :
+Les contributions peuvent prendre plusieurs formes :
 
-- illustrer les labels,
-- rendre le protocole plus lisible,
-- faciliter sa diffusion,
-- fournir des supports visuels cohérents.
+- signalement d’un cas limite ;
+- question de clarification ;
+- proposition de reformulation ;
+- correction documentaire ;
+- amélioration pédagogique ;
+- retour d’usage ;
+- remarque sur un asset, un badge, une formulation ou un exemple.
 
-Les décisions portant sur `assets/` doivent rester compatibles avec :
+Les échanges ordinaires passent par :
 
-- la doctrine du protocole,
-- la cohérence visuelle du projet,
-- la lisibilité publique,
-- le statut non certifiant de TCP/UP.
+- les issues ;
+- les pull requests ;
+- les fichiers documentaires du dépôt ;
+- les cas transversaux réunis dans `CASES.md`.
 
-## 8. Trajectoire future
+Le cœur contributif du projet se trouve dans `docs/`.
 
-À terme, TCP/UP pourra évoluer vers une gouvernance plus ouverte, pouvant inclure :
+---
 
-- des contributeurs réguliers,
-- des relecteurs thématiques,
-- une consultation plus formalisée,
-- un processus de révision publique sur certains changements majeurs.
+## Critères d’examen des propositions
 
-## 9. Limite importante
+Les propositions sont examinées à partir de critères simples :
 
-La gouvernance de TCP/UP n’en fait pas une autorité de certification.  
-Le projet reste une initiative déclarative de transparence, fondée sur la responsabilité du publieur.
+- leur clarté ;
+- leur utilité pratique ;
+- leur cohérence avec le reste du protocole ;
+- leur compatibilité avec la logique déclarative de TCP/UP ;
+- leur capacité à réduire une ambiguïté réelle ;
+- leur impact sur la lisibilité publique du projet.
+
+Une proposition peut être pertinente sur le fond et néanmoins être reportée, reformulée ou refusée si elle complexifie excessivement le protocole.
+
+---
+
+## Modalités de décision
+
+À ce stade, les décisions sont prises par le mainteneur après examen des éléments disponibles.
+
+Selon les cas, une proposition peut être :
+
+- acceptée ;
+- acceptée après reformulation ;
+- mise en attente ;
+- redirigée vers un autre fichier ou une autre discussion ;
+- refusée avec ou sans motivation détaillée.
+
+Lorsqu’un sujet est structurant, le mainteneur peut privilégier un temps d’observation, de discussion ou de reformulation avant intégration.
+
+---
+
+## Versioning et évolution du protocole
+
+Le protocole évolue de manière progressive.
+
+Les changements peuvent relever de plusieurs niveaux :
+
+- **majeur** : modification structurelle du protocole ou de sa logique générale ;
+- **mineur** : ajout, clarification, enrichissement doctrinal ou amélioration non disruptive ;
+- **correctif** : correction éditoriale, typographique, terminologique ou formelle.
+
+Les évolutions importantes sont documentées dans `CHANGELOG.md`.
+
+---
+
+## Place de la communauté
+
+TCP/UP est conçu pour être enrichi par les retours d’usage, les discussions et les cas concrets. La communauté peut donc jouer un rôle utile de signalement, de test, de critique et d’amélioration.
+
+À ce stade, la communauté ne constitue toutefois pas une instance collégiale de décision formelle.
+
+Le projet reste ouvert à une évolution future de son modèle de gouvernance si son adoption, sa taille ou sa diversité d’usages le justifient.
+
+---
+
+## Évolution possible de la gouvernance
+
+À terme, si le projet gagne en maturité, la gouvernance pourra évoluer vers un modèle plus distribué ou plus consultatif.
+
+Cela pourrait inclure, par exemple :
+
+- un cercle de relecture ;
+- des contributeurs réguliers identifiés ;
+- une consultation élargie sur certains changements majeurs ;
+- une formalisation plus fine des rôles documentaires ou éditoriaux.
+
+Aucune de ces évolutions n’est automatique. Elles dépendront des besoins réels du projet.
+
+---
+
+## Gouvernance des assets et de l’identité visuelle
+
+Les assets, badges, logos et autres éléments visuels du projet participent à la lisibilité publique de TCP/UP. Leur évolution doit donc rester cohérente avec le sens du protocole, sa lisibilité et sa nature non certifiante.
+
+Les remarques ou propositions sur ces éléments peuvent être discutées, mais leur adoption relève également du mainteneur.
+
+Le régime applicable aux textes, assets, badges, logos et éléments de marque est précisé dans `LICENSE`.
+
+---
+
+## Sécurité et signalements sensibles
+
+Les problèmes de sécurité, d’exposition involontaire d’informations sensibles, d’usage problématique d’un asset officiel, de snippet risqué ou de confusion grave doivent être traités selon la politique décrite dans `SECURITY.md`.
+
+Ils ne relèvent pas toujours d’une issue publique ordinaire.
+
+---
+
+## Limites de la gouvernance
+
+La gouvernance de TCP/UP :
+
+- ne constitue pas une garantie de conformité juridique ;
+- ne crée pas une autorité de validation officielle ;
+- ne transforme pas le protocole en norme publique ;
+- ne remplace ni le discernement des auteurs, ni l’évolution future du débat public.
+
+Elle vise uniquement à maintenir un cadre d’évolution cohérent, intelligible et responsable.
+
+---
+
+## Esprit général
+
+La gouvernance de TCP/UP doit rester proportionnée à la nature du projet : ouverte sans être floue, structurée sans devenir bureaucratique, exigeante sans se fermer à la critique.
+
+Le projet avance par clarification, par documentation et par sincérité méthodologique.

@@ -181,7 +181,7 @@ Si vous devez signaler une vulnérabilité, une exposition involontaire d’info
 ## Licence
 
 Le contenu documentaire du dépôt est publié sous **CC BY-SA 4.0**, sauf mention contraire.  
-Les logos, badges, la marque et l’identité visuelle restent exclus par défaut.
+Les logos, badges, le nom TCP/UP, la marque et l’identité visuelle sont exclus de cette licence et ne peuvent pas être réutilisés comme s’ils étaient librement ouverts par défaut.
 
 ---
 

@@ -115,7 +115,7 @@ Les signalements de bonne foi sont néanmoins appréciés.
 
 ## Spécificité du projet TCP/UP
 
-TCP/UP est un protocole déclaratif fondé sur la bonne foi, la transparence et la responsabilité humaine, tel qu’expliqué dans la documentation du projet. [file:2][file:5][file:6] En conséquence, certains signalements concerneront moins une faille logicielle classique qu’un risque de confusion, de mésusage des badges, d’ambiguïté de présentation ou de faux sentiment de validation officielle. [file:2][file:6][file:7]
+TCP/UP est un protocole déclaratif fondé sur la bonne foi, la transparence et la responsabilité humaine, tel qu’expliqué dans la documentation du projet. En conséquence, certains signalements concerneront moins une faille logicielle classique qu’un risque de confusion, de mésusage des badges, d’ambiguïté de présentation ou de faux sentiment de validation officielle.
 
 Les signalements pertinents peuvent donc porter aussi sur :
 

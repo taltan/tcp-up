@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logos/logo_tcp-up.webp" alt="TCP/UP Logo" width="200">
+</p>
+
 # TCP/UP
 
 > Protocole déclaratif de transparence sur le rôle de l’humain et de l’IA dans la création de contenu.

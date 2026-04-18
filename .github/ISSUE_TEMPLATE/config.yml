@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Lire la documentation TCP/UP
+    url: https://github.com/taltan/tcp-up/tree/main/docs
+    about: Consultez d’abord les documents de référence du protocole dans le dossier docs/
+
+  - name: Voir les cas d’usage et arbitrages
+    url: https://github.com/taltan/tcp-up/blob/main/CASES.md
+    about: Vérifiez si votre question ou votre cas figure déjà dans CASES.md
+
+  - name: Consulter le site TCP/UP
+    url: https://tcp-up.org
+    about: Présentation publique du protocole

@@ -1,4 +1,4 @@
-TCP/UP - Licence du dépôt
+# TCP/UP - Licence du dépôt
 
 Sauf mention contraire, le contenu documentaire de ce dépôt est mis à disposition selon la licence Creative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International (CC BY-SA 4.0).
 
@@ -21,44 +21,62 @@ Vous êtes autorisé à :
 
 conformément aux termes de la licence.
 
-Lien vers la licence :
-https://creativecommons.org/licenses/by-sa/4.0/
+Lien vers la licence :  
+[https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Exclusions
+## Éléments exclus de cette licence
 
-Sauf mention explicite contraire, les éléments suivants ne sont pas couverts par la réutilisation libre au même titre que le contenu documentaire :
+Sauf mention explicite contraire, les éléments suivants **ne sont pas couverts** par la licence CC BY-SA 4.0 applicable au contenu documentaire :
+
 - les logos ;
 - les badges ;
 - les icônes ;
 - l’identité visuelle ;
 - les éléments de marque ;
-- le nom TCP/UP lorsqu’il est utilisé comme signe de présentation officielle, de validation ou de représentation du projet.
+- le nom TCP/UP ;
+- tout signe, visuel ou présentation susceptible de faire croire à une validation officielle, à une représentation du projet ou à une appartenance au projet.
 
-Absence de cession de marque
+Ces éléments ne sont donc **pas librement réutilisables par défaut** au même titre que le contenu documentaire.
 
-Le présent dépôt ne concède aucun droit de marque, de représentation officielle, d’endossement, de labellisation officielle ou d’usage trompeur du nom TCP/UP et de son identité associée.
+Le fait qu’ils soient exclus de la licence ouverte ne signifie pas qu’ils sont sans protection. Cela signifie au contraire qu’ils restent soumis à un régime distinct, notamment en matière de droit d’auteur, de droit des signes distinctifs, d’identité visuelle, de marque ou de prévention de la confusion.
 
-Réutilisation responsable
+## Absence de cession de marque ou d’identité
+
+Le présent dépôt ne concède aucun droit :
+
+- de marque ;
+- de représentation officielle ;
+- d’endossement ;
+- de labellisation officielle ;
+- d’usage du nom TCP/UP comme signe d’autorité, de validation ou d’affiliation ;
+- d’usage de l’identité visuelle dans des conditions susceptibles de créer une confusion.
+
+Aucune réutilisation du nom TCP/UP, des badges, des logos ou des éléments visuels du projet ne doit laisser croire qu’un contenu, un service, une organisation ou un tiers est officiellement validé, certifié, affilié ou représentatif du projet sans autorisation explicite.
+
+## Réutilisation responsable
 
 Toute réutilisation des contenus ou des ressources du dépôt doit respecter l’esprit du projet, en particulier :
+
 - l’absence de présentation trompeuse ;
 - l’absence de confusion avec une certification officielle ;
 - le respect du sens des labels et de la logique déclarative du protocole ;
-- la préservation de la lisibilité publique des ressources réutilisées.
+- la préservation de la lisibilité publique des ressources réutilisées ;
+- l’absence d’usage de l’identité du projet dans un contexte ambigu ou de nature à induire le public en erreur.
 
-Assets et usages sensibles
+## Assets et usages sensibles
 
-Si vous souhaitez réutiliser un logo, un badge, une icône, un ensemble graphique ou tout autre élément d’identité visuelle dans un contexte public, institutionnel, commercial ou potentiellement ambigu, il est recommandé de demander une validation préalable.
+Si vous souhaitez réutiliser un logo, un badge, une icône, un ensemble graphique ou tout autre élément d’identité visuelle dans un contexte public, institutionnel, commercial ou potentiellement ambigu, une autorisation préalable est recommandée.
 
-Pour toute question, vous pouvez écrire à :
-contact@tcp-up.org
+Pour toute question, vous pouvez écrire à :  
+[contact@tcp-up.org](mailto:contact@tcp-up.org)
 
-Absence de garantie
+## Absence de garantie
 
 Le dépôt, ses contenus et ses ressources sont fournis en l’état, sans garantie d’aucune sorte, dans les limites autorisées par le droit applicable.
 
-En cas de doute
+## En cas de doute
 
 En cas d’ambiguïté sur le régime applicable à un fichier, un asset ou un usage, l’interprétation la plus prudente s’applique :
+
 - le contenu documentaire est ouvert par défaut sous CC BY-SA 4.0 ;
-- les éléments visuels, de marque ou d’identité ne le sont pas, sauf mention explicite contraire.
+- les éléments visuels, de marque ou d’identité ne sont pas couverts par cette licence, sauf mention explicite contraire.

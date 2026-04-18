@@ -1,37 +1,68 @@
-# Protocole TCP/UP
+# TCP/UP
 
-**T**ransparent **C**ontent **P**rotocol / **U**ser-**P**owered
+TCP/UP est un protocole déclaratif de transparence conçu pour rendre visible le rôle respectif de l’humain et de l’IA dans la création de contenu.
 
----
+## Ce qu’est TCP/UP
 
-### 🔍 Qu'est-ce que TCP/UP ?
+- Un protocole public de labellisation
+- Un langage de transparence
+- Un cadre pratique pour déclarer le rôle de l’intention humaine et de l’assistance IA
+- Une initiative centrée sur la documentation
 
-TCP/UP est une initiative citoyenne qui propose un protocole de transparence pour l'usage de l'IA dans la création de contenu. Face au "Human-Washing", il offre un système simple de 5 labels déclaratifs pour indiquer comment l'humain et l'IA ont collaboré.
+## Ce que TCP/UP n’est pas
 
-**👉 [Consultez le site officiel](https://tcp-up.org) (bientôt en ligne)**
+- Ce n’est pas un détecteur d’IA
+- Ce n’est pas un avis juridique
+- Ce n’est pas une certification officielle
+- Ce n’est pas un système de preuve technique
 
-### ✨ Les 5 Labels
+## Statut actuel
 
-*   **[TCP/UP: HUC]** : 100% Humain
-*   **[TCP/UP: HCA]** : Fond humain, correction IA
-*   **[TCP/UP: HCE]** : Fond humain, formulation IA
-*   **[TCP/UP: ACE]** : Co-construction humain/IA
-*   **[TCP/UP: AIC]** : Contenu généré par IA
+Projet en cours — version 0.1.0
 
-### 📂 Ce que contient ce dépôt
+## Les 5 labels
 
-Ce dépôt héberge l'intégralité du code source et des ressources du projet TCP/UP :
+- **HUC** — contenu 100 % humain, sans IA
+- **HCA** — contenu humain, IA limitée à la correction technique
+- **HCE** — fond humain, formulation assistée par IA
+- **ACE** — co-construction substantielle entre humain et IA
+- **AIC** — contenu principalement ou entièrement généré par IA
 
-*   `index.html` : La page d'accueil
-*   `css/` : Les feuilles de style
-*   `img/` : Les logos, badges et icônes
-*   `pages/` : Les pages de documentation (à propos, FAQ, etc.)
-*   `dl/` : Le kit de ressources à télécharger
+## Contenu du dépôt
 
-### 🤝 Comment contribuer
+- `SPECIFICATION.md` — définition du protocole
+- `GOVERNANCE.md` — règles d’évolution du projet
+- `CONTRIBUTING.md` — modalités de contribution
+- `CHANGELOG.md` — historique des versions
 
-TCP/UP est un standard ouvert ! Si vous souhaitez proposer des améliorations, signaler un problème ou participer aux discussions, vous pouvez :
-*   **Ouvrir une "Issue"** pour poser une question ou signaler un bug.
-*   **Proposer une "Pull Request"** pour soumettre une modification du code.
+## Principes
 
-N'hésitez pas à consulter le [guide de contribution](CONTRIBUTING.md) pour plus de détails.
+TCP/UP repose sur :
+- la déclaration de bonne foi,
+- la clarté pour le lecteur,
+- la responsabilité du publieur,
+- la prudence dans les cas ambigus.
+
+## Contribuer
+
+Merci de lire `CONTRIBUTING.md` avant d’ouvrir une issue ou une pull request.
+
+## Gouvernance
+
+La gouvernance est actuellement légère et pilotée par le mainteneur. Voir `GOVERNANCE.md`.
+
+## Site web
+
+- Site principal : https://tcp-up.org
+- Contact : contact@tcp-up.org
+
+## Versionnement
+
+Ce dépôt utilise un versionnement simple :
+- `0.x` = phase de brouillon
+- `1.x` = base publique stabilisée
+- versions mineures = clarifications, exemples, améliorations non structurantes
+
+## Licence
+
+Voir `LICENSE`.

@@ -18,22 +18,22 @@ TCP/UP est un protocole déclaratif de transparence conçu pour rendre visible l
 
 ## Statut actuel
 
-Projet en cours — version 0.1.0
+Projet en cours - version 0.1.0
 
 ## Les 5 labels
 
-- **HUC** — contenu 100 % humain, sans IA
-- **HCA** — contenu humain, IA limitée à la correction technique
-- **HCE** — fond humain, formulation assistée par IA
-- **ACE** — co-construction substantielle entre humain et IA
-- **AIC** — contenu principalement ou entièrement généré par IA
+- **HUC** - contenu 100 % humain, sans IA
+- **HCA** - contenu humain, IA limitée à la correction technique
+- **HCE** - fond humain, formulation assistée par IA
+- **ACE** - co-construction substantielle entre humain et IA
+- **AIC** - contenu principalement ou entièrement généré par IA
 
 ## Contenu du dépôt
 
-- `SPECIFICATION.md` — définition du protocole
-- `GOVERNANCE.md` — règles d’évolution du projet
-- `CONTRIBUTING.md` — modalités de contribution
-- `CHANGELOG.md` — historique des versions
+- `SPECIFICATION.md` - définition du protocole
+- `GOVERNANCE.md` - règles d’évolution du projet
+- `CONTRIBUTING.md` - modalités de contribution
+- `CHANGELOG.md` - historique des versions
 
 ## Principes
 

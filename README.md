@@ -1,68 +1,106 @@
 # TCP/UP
 
-TCP/UP est un protocole déclaratif de transparence conçu pour rendre visible le rôle respectif de l’humain et de l’IA dans la création de contenu.
+> **Protocole déclaratif de transparence** sur le rôle de l’humain et de l’IA dans la création de contenu.
 
-## Ce qu’est TCP/UP
+[![Statut](https://img.shields.io/badge/statut-brouillon-blue)](#statut-actuel)
+[![Version](https://img.shields.io/badge/version-0.1.0-black)](#statut-actuel)
+[![Licence](https://img.shields.io/badge/licence-CC_BY_4.0-green)](#licence)
+
+TCP/UP aide à **rendre visible** la part respective de l’intention humaine et de l’assistance algorithmique dans un contenu.
+
+---
+
+## En une phrase
+
+TCP/UP propose une grille simple de labels pour déclarer, de bonne foi, comment un contenu a été produit.
+
+## Ce que TCP/UP est
 
 - Un protocole public de labellisation
-- Un langage de transparence
-- Un cadre pratique pour déclarer le rôle de l’intention humaine et de l’assistance IA
-- Une initiative centrée sur la documentation
+- Un langage commun de transparence
+- Un cadre déclaratif fondé sur la bonne foi
+- Une initiative documentaire et évolutive
 
 ## Ce que TCP/UP n’est pas
 
-- Ce n’est pas un détecteur d’IA
-- Ce n’est pas un avis juridique
-- Ce n’est pas une certification officielle
-- Ce n’est pas un système de preuve technique
+- Un détecteur d’IA
+- Une certification officielle
+- Un avis juridique
+- Une preuve technique d’origine
 
-## Statut actuel
-
-Projet en cours - version 0.1.0
+---
 
 ## Les 5 labels
 
-- **HUC** - contenu 100 % humain, sans IA
-- **HCA** - contenu humain, IA limitée à la correction technique
-- **HCE** - fond humain, formulation assistée par IA
-- **ACE** - co-construction substantielle entre humain et IA
-- **AIC** - contenu principalement ou entièrement généré par IA
+| Label | Signification | Usage typique |
+|---|---|---|
+| **HUC** | 100 % humain, sans IA | Écriture ou création entièrement humaine |
+| **HCA** | Humain + correction technique IA | Orthographe, grammaire, nettoyage formel |
+| **HCE** | Fond humain, formulation assistée par IA | Reformulation, ton, traduction relue |
+| **ACE** | Co-construction humain / IA | Plan, idées, structure partagée |
+| **AIC** | Contenu majoritairement généré par IA | Génération brute, sélection ou validation légère |
+
+---
+
+## Démarrage rapide
+
+1. Lire `SPECIFICATION.md`
+2. Consulter `CASES.md`
+3. Ouvrir une issue si un cas est ambigu
+4. Proposer une clarification si nécessaire
+
+---
 
 ## Contenu du dépôt
 
+- `README.md` - vue d’ensemble du projet
 - `SPECIFICATION.md` - définition du protocole
-- `GOVERNANCE.md` - règles d’évolution du projet
-- `CONTRIBUTING.md` - modalités de contribution
+- `CASES.md` - cas d’usage et arbitrages
+- `GOVERNANCE.md` - mode d’évolution du projet
+- `CONTRIBUTING.md` - règles de contribution
+- `.github/ISSUE_TEMPLATE/protocol-case.md` - modèle d’issue
 - `CHANGELOG.md` - historique des versions
 
-## Principes
+---
 
-TCP/UP repose sur :
-- la déclaration de bonne foi,
-- la clarté pour le lecteur,
-- la responsabilité du publieur,
-- la prudence dans les cas ambigus.
+## Statut actuel
+
+**Version :** 0.1.0  
+**Maturité :** brouillon public  
+**Gouvernance :** mainteneur principal, ouverture progressive à contribution
+
+---
+
+## Principes directeurs
+
+- **Clarté** : permettre au lecteur de comprendre qui a fait quoi
+- **Prudence** : en cas de doute, attribuer davantage à l’IA
+- **Responsabilité** : le publieur assume son étiquetage
+- **Simplicité** : conserver un cadre lisible et praticable
+
+---
 
 ## Contribuer
 
-Merci de lire `CONTRIBUTING.md` avant d’ouvrir une issue ou une pull request.
+Les contributions utiles incluent :
 
-## Gouvernance
+- cas limites,
+- scénarios contradictoires,
+- propositions de formulation,
+- exemples issus du journalisme, de l’éducation, du droit, du design, du code ou de la documentation.
 
-La gouvernance est actuellement légère et pilotée par le mainteneur. Voir `GOVERNANCE.md`.
+Merci de lire `CONTRIBUTING.md` avant toute issue ou pull request.
+
+---
 
 ## Site web
 
-- Site principal : https://tcp-up.org
+- Site : https://tcp-up.org
 - Contact : contact@tcp-up.org
 
-## Versionnement
-
-Ce dépôt utilise un versionnement simple :
-- `0.x` = phase de brouillon
-- `1.x` = base publique stabilisée
-- versions mineures = clarifications, exemples, améliorations non structurantes
+---
 
 ## Licence
 
-Voir `LICENSE`.
+Le contenu documentaire est publié sous **CC BY 4.0**, sauf mention contraire.  
+Les logos, badges, la marque et l’identité visuelle restent exclus par défaut.

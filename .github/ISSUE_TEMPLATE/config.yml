@@ -1,14 +1,18 @@
 blank_issues_enabled: false
 
 contact_links:
-  - name: Lire la documentation TCP/UP
+  - name: Documentation TCP/UP
     url: https://github.com/taltan/tcp-up/tree/main/docs
-    about: Consultez d’abord les documents de référence du protocole dans le dossier docs/
+    about: Consultez d’abord le cœur documentaire du protocole dans le dossier docs/
 
-  - name: Voir les cas d’usage et arbitrages
+  - name: Cas d’usage et arbitrages
     url: https://github.com/taltan/tcp-up/blob/main/CASES.md
     about: Vérifiez si votre question ou votre cas figure déjà dans CASES.md
 
-  - name: Consulter le site TCP/UP
+  - name: Ressources visuelles
+    url: https://github.com/taltan/tcp-up/tree/main/assets
+    about: Consultez les badges, logos, icônes et autres assets de référence
+
+  - name: Site TCP/UP
     url: https://tcp-up.org
-    about: Présentation publique du protocole
+    about: Voir la présentation publique du protocole

@@ -1,14 +1,136 @@
-Le contenu documentaire de ce dépôt TCP/UP est mis à disposition sous licence CC BY 4.0, sauf mention contraire explicite.
+TCP/UP - LICENCE DU DÉPÔT
 
-Vous pouvez copier, partager et adapter les textes, sous réserve d’attribution appropriée.
+Version : 0.1.0
 
-Sont exclus par défaut, sauf mention explicite contraire :
+1. Principe général
+-------------------
+
+Sauf mention contraire explicite, le contenu documentaire textuel de ce dépôt est mis à disposition sous licence Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+Cela concerne en priorité les contenus textuels des fichiers tels que :
+
+- README.md
+- SPECIFICATION.md
+- CASES.md
+- CONTRIBUTING.md
+- GOVERNANCE.md
+- CHANGELOG.md
+- les fichiers contenus dans docs/
+
+Vous pouvez copier, partager, adapter et réutiliser ces textes, sous réserve d’attribution appropriée.
+
+2. Ce qui est couvert par CC BY 4.0
+-----------------------------------
+
+Sauf indication contraire dans un fichier particulier, sont considérés comme couverts par la licence documentaire CC BY 4.0 :
+
+- les textes du dépôt,
+- les formulations explicatives,
+- les descriptions des labels,
+- les exemples et cas d’usage,
+- la documentation présente dans docs/.
+
+3. Ce qui n’est pas couvert automatiquement
+-------------------------------------------
+
+Ne sont pas couverts automatiquement par la licence documentaire générale du dépôt :
+
 - les logos,
 - les badges,
+- les icônes,
 - la marque TCP/UP,
-- l’identité visuelle,
-- les éléments graphiques distinctifs.
+- le nom TCP/UP en tant que signe distinctif,
+- l’identité visuelle du projet,
+- les éléments graphiques distinctifs,
+- certains assets présents dans assets/ si leur statut n’est pas explicitement ouvert.
 
-Le présent dépôt n’accorde aucun droit sur la marque TCP/UP ni sur son identité visuelle.
+Autrement dit, la présence d’un fichier visuel dans ce dépôt ne signifie pas automatiquement qu’il est librement réutilisable sans condition.
 
-Les contributions proposées via issues ou pull requests sont réputées soumises pour intégration potentielle dans ce cadre documentaire, sous réserve d’acceptation par le mainteneur.
+4. Statut des assets
+--------------------
+
+Le dossier assets/ contient des ressources visuelles de référence du projet, notamment :
+
+- badges,
+- icônes,
+- logos,
+- visuels de documentation.
+
+Leur présence dans le dépôt a pour objectif principal de :
+
+- documenter le protocole,
+- faciliter sa compréhension,
+- permettre une présentation cohérente du projet,
+- fournir des éléments de référence pour son usage public.
+
+Sauf mention explicite contraire, ces assets ne sont pas placés sous la même licence que les textes documentaires.
+
+5. Logos et marque
+------------------
+
+Les logos TCP/UP, les variantes de logos de labels, les badges officiels, ainsi que la marque TCP/UP et les autres signes d’identité visuelle restent réservés.
+
+Le présent dépôt n’accorde aucun droit :
+
+- de marque,
+- d’endossement,
+- de certification,
+- de représentation officielle,
+- ni d’usage trompeur de l’identité TCP/UP.
+
+Aucun utilisateur ne peut laisser entendre, par l’usage d’un logo, d’un badge ou d’un visuel du dépôt, qu’il bénéficie d’une validation officielle, d’une certification ou d’un statut reconnu par TCP/UP, sauf autorisation explicite.
+
+6. Réutilisation des badges et visuels
+--------------------------------------
+
+La réutilisation des badges, logos, icônes et autres éléments graphiques doit respecter les principes suivants :
+
+- ne pas dénaturer le sens du protocole,
+- ne pas créer de confusion sur la nature déclarative de TCP/UP,
+- ne pas suggérer une certification officielle inexistante,
+- ne pas modifier un visuel de manière trompeuse,
+- ne pas utiliser l’identité visuelle d’une manière portant atteinte à la clarté du projet.
+
+Une réutilisation illustrative, pédagogique ou documentaire peut être tolérée ou acceptée selon le contexte, mais elle ne découle pas automatiquement de la licence CC BY 4.0 applicable aux textes.
+
+7. Cas des fichiers explicitement ouverts
+-----------------------------------------
+
+Si certains assets visuels doivent être ouverts à réutilisation, cela doit être indiqué explicitement :
+
+- dans le fichier concerné,
+- dans un sous-dossier dédié,
+- ou dans une mention complémentaire de licence.
+
+À défaut, la prudence s’applique : le texte est ouvert selon CC BY 4.0, les visuels ne le sont pas automatiquement.
+
+8. Contributions
+----------------
+
+En soumettant une contribution au dépôt via issue ou pull request, le contributeur reconnaît que :
+
+- sa proposition peut être discutée, modifiée, acceptée ou refusée,
+- les contributions textuelles acceptées pourront être intégrées au corpus documentaire publié sous CC BY 4.0,
+- les contributions visuelles acceptées pourront faire l’objet d’un traitement spécifique selon leur nature,
+- aucune contribution n’emporte à elle seule reconnaissance officielle, gouvernance partagée ou co-titularité sur la marque.
+
+9. Absence de transfert de marque
+---------------------------------
+
+Le dépôt, ses textes et ses assets n’opèrent aucun transfert :
+
+- de propriété de la marque,
+- de droits sur l’identité visuelle,
+- de pouvoir de certification,
+- ni de mandat de représentation du projet.
+
+10. Résumé pratique
+-------------------
+
+En pratique :
+
+- les textes du dépôt sont ouverts sous CC BY 4.0, sauf mention contraire ;
+- les fichiers de docs/ sont destinés à la contribution ;
+- les assets/ servent de référence visuelle ;
+- les logos, badges, icônes et la marque TCP/UP restent exclus par défaut de la licence documentaire générale ;
+- toute réutilisation publique de l’identité visuelle doit rester fidèle, non trompeuse et non certifiante.

@@ -234,7 +234,7 @@ TCP/UP ne remplace pas la vigilance du lecteur. Il lui donne un outil pour éval
 
 ### « C'est trop compliqué. 5 labels, c'est 4 de trop. »
 
-Nous avons testé des versions plus simples (3 labels, 2 labels). Elles ne permettaient pas de distinguer la correction orthographique de la co-rédaction. La granularité actuelle est le minimum nécessaire pour une transparence honnête.
+Des versions plus simple on été testées (3 labels, 2 labels). Elles ne permettaient pas de distinguer la correction orthographique de la co-rédaction. La granularité actuelle est le minimum nécessaire pour une transparence honnête.
 
 Et avec l'arbre de décision, le choix prend moins de 10 secondes.
 

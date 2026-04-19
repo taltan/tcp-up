@@ -170,7 +170,7 @@ Rien ne vous empêche de mettre à jour le label à tout moment, par exemple lor
 
 ### Y a-t-il un risque de « human‑washing » avec ce protocole ?
 
-Le risque existe, comme pour tout système déclaratif. TCP/UP n’est pas une police technique ; sa solidité repose sur la cohérence des usages, la responsabilité de l’auteur et, à terme, sur une doctrine publique claire pour traiter les cas litigieux.
+Le risque existe, comme pour tout système déclaratif. TCP/UP n’est pas une police technique, sa solidité repose sur la cohérence des usages, la responsabilité de l’auteur et, à terme, sur une doctrine publique claire pour traiter les cas litigieux.
 
 ## Perspectives et Enjeux Sociétaux
 

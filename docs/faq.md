@@ -196,7 +196,7 @@ Le protocole n’a pas vocation à être une norme légale. Il peut compléter u
 
 ### Comment puis-je contribuer à l’évolution du protocole ?
 
-TCP/UP est ouvert aux retours. Vous pouvez proposer des améliorations, signaler des cas limites non couverts, ou partager votre expérience via la page contact. Le projet est collaboratif par nature.
+TCP/UP est ouvert aux retours. Vous pouvez proposer des améliorations, signaler des cas limites non couverts ou partager votre expérience via la [page contact](/pages/contact.html) ou en ouvrant une issue sur le [dépôt GitHub](https://github.com/taltan/tcp-up) du projet. Le projet est collaboratif par nature.
 
 ## Précisions sur la méthode
 
@@ -236,7 +236,7 @@ TCP/UP ne remplace pas la vigilance du lecteur. Il lui donne un outil pour éval
 
 Des versions plus simples on été testées (3 labels, 2 labels). Elles ne permettaient pas de distinguer la correction orthographique de la co-rédaction. La granularité actuelle est le minimum nécessaire pour une transparence honnête.
 
-Et avec l'arbre de décision, le choix prend moins de 10 secondes.
+Et avec l'arbre de décision, le choix prend moins de 30 secondes.
 
 ### « C'est élitiste. Seuls les "vrais humains" seraient valorisés. »
 
@@ -254,7 +254,7 @@ Si vous ne faites pas confiance, n'utilisez pas TCP/UP. Mais si vous cherchez un
 
 ### « L'AI Act va rendre tout ça obligatoire. Pourquoi anticiper ? »
 
-Parce que l'AI Act impose des obligations sans fournir d'outils pratiques. TCP/UP propose une méthode concrète pour s'y conformer dès aujourd'hui. Les organisations qui adoptent le protocole maintenant seront en avance.
+Parce que l'AI Act impose des obligations de transparence sans fournir de méthode pratique pour y répondre. TCP/UP propose une démarche documentaire concrète pour répondre à cet esprit de transparence dès aujourd'hui. Les organisations qui adoptent le protocole maintenant se donnent les moyens d'être au clair sur leurs processus créatifs avant que le cadre légal ne se durcisse.
 
 ## Mise en œuvre technique
 

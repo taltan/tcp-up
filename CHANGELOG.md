@@ -20,6 +20,21 @@ Il suit une logique simple : une section par version, les versions les plus réc
 - Place exacte des assets visuels dans l’économie générale du protocole.
 - Possibilité d’une labellisation plus modulaire par section ou par composant.
 
+## [0.2.0] - 2026-04-25
+
+### Ajouté
+- Logique des métadonnées avec clés de contenu variables et suffixes figés (`content-origin`, `form-origin`, `ai-role`).
+- Tableau des origines par label (Fond/Forme) et tableau des Content Keys pour les types de contenu.
+- Exemples concrets de blocs de métadonnées pour un contenu unique et un contenu composite.
+- Lien vers le générateur de métadonnées dans la section Signature technique.
+
+### Modifié
+- Mise à jour du guide de l’étiquetage (version 1.1) avec la nouvelle structure de métadonnées.
+- Enrichissement de la section 3.3 pour détailler la logique des métadonnées et les valeurs normalisées.
+
+### Clarifié
+- Distinction entre Fond et Forme dans les métadonnées via les suffixes `content-origin` et `form-origin`.
+
 ## [0.1.0] - 2026-04-18
 
 ### Ajouté

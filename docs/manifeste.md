@@ -24,12 +24,19 @@ Ce projet ne sort pas d’un comité de régulation, mais d’un double constat,
 
 ## Le constat d’un manque
 
-Avant de lancer ce projet, j’ai cherché si une telle démarche existait déjà. Il existe des initiatives majeures, mais aucune ne répondait précisément à mon idée :
+Avant de lancer ce projet, j’ai cherché si une telle démarche existait déjà. Il existe des initiatives majeures, mais aucune ne répondait précisément à mon idée, celle de qualifier la relation humaine avec l'outil :
 
-- [L’AI Act européen :](https://artificialintelligenceact.eu/fr/) un cadre juridique et réglementaire global, mais complexe. *Il impose des obligations de transparence aux « déployeurs » de systèmes d’IA (notamment l’article 50), mais sans fournir d’outil pratique ni de grille de lecture accessible au grand public*
-- [Content Authenticity Initiative (CAI) :](https://contentauthenticity.org/) un standard technique axé sur la preuve de l’origine de l’image, soutenu par les normes [IPTC](https://iptc.org/) et [C2PA](https://c2pa.org/)
+- [L’AI Act européen :](https://artificialintelligenceact.eu/fr/) un cadre juridique global qui impose des obligations de transparence (notamment l’article 50), mais sans fournir de grille de lecture accessible pour le quotidien des créateurs
+- [AI Transparency Protocol :](https://ai-transparency-protocol.vercel.app/) une solution de conformité technique via un fichier JSON (/.well-known/), parfaite pour les audits de sites web mais centrée sur la réponse réglementaire plutôt que sur le processus créatif
+- [Content Authenticity Initiative (CAI) :](https://contentauthenticity.org/) un standard robuste pour prouver l’origine technique d’un fichier via les normes [IPTC](https://iptc.org/) et [C2PA](https://c2pa.org/)
+- [Trust Identity Protocol (TIP) :](https://theailab.org/trust-identity-protocol) axé sur la certification de l'identité pour distinguer l'humain du bot, essentiel pour lutter contre l'usurpation mais silencieux sur la méthode de production du contenu
+- [OETP (Open Ethics) :](https://openethics.ai/oetp/) un protocole de divulgation très complet pour l'audit éthique des systèmes d'IA, conçu pour la gouvernance d'entreprise plus que pour la lisibilité éditoriale
+- [Declare AI :](https://declare-ai.github.io/declare-ai/) une initiative de signalement social par tags, très proche de l'esprit citoyen mais sans la distinction cruciale entre le fond et la forme
+- [TRP (Trustable Reporting Protocol) :](https://datatracker.ietf.org/doc/draft-rust-trp/00/) un projet de norme IETF pour le reporting technique entre machines, situé au niveau de l'infrastructure réseau
 
-Ces outils fournissent une **infrastructure technique robuste**, ils permettent d’ancrer la preuve d’utilisation de l’IA directement dans les fichiers (métadonnées signées, historique des modifications, nom du modèle, etc.), mais ils restent complexes pour le grand public et ne répondent pas à une question simple : *« À quel point l’humain a‑t‑il été impliqué dans ce contenu ? ».*
+Ces outils fournissent une **infrastructure technique ou réglementaire**, ils permettent d’ancrer des preuves ou de valider des identités. Cependant, ils restent souvent complexes et ne répondent pas à une question simple, « À quel point l’humain a-t-il été impliqué dans la conception de ce contenu ? ».
+
+C'est ici que **TCP/UP vient combler un manque**, il ne cherche pas à prouver techniquement, mais à déclarer sincèrement. Là où les autres protocoles s'arrêtent à la détection de l'IA, TCP/UP valorise la « part de l'utilisateur » en distinguant l'intention intellectuelle de l'exécution technologique.
 
 ## Le Human‑Washing : la nouvelle zone grise
 

@@ -20,6 +20,18 @@ Il suit une logique simple : une section par version, les versions les plus réc
 - Place exacte des assets visuels dans l’économie générale du protocole.
 - Possibilité d’une labellisation plus modulaire par section ou par composant.
 
+## [0.2.1] - 2026-04-30
+
+### Modifié
+- Mise à jour de la section « Le constat d’un manque » dans `manifeste.md`, afin de refléter l’état de l’art des protocoles de transparence.
+
+### Ajouté
+- Analyse comparative intégrant de nouvelles références mondiales, AI Transparency Protocol, TIP, OETP, Declare AI et TRP.
+- Liens vers les documentations et spécifications de ces initiatives pour faciliter l’interopérabilité conceptuelle.
+
+### Clarifié
+- Positionnement de TCP/UP face aux infrastructures techniques et réglementaires, le protocole comble un manque en qualifiant la « part de l’utilisateur » par la distinction entre intention intellectuelle et exécution machine.
+
 ## [0.2.0] - 2026-04-25
 
 ### Ajouté

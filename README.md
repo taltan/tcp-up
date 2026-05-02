@@ -14,6 +14,11 @@ TCP/UP vise à rendre lisible, de bonne foi, la part respective de l’intention
 
 ---
 
+## 🌍 Diffusion & Internationalisation
+Le protocole TCP/UP a vocation à être universel. 
+* **Traductions** : La gestion des langues étrangères (fichiers JSON) se fait sur le dépôt dédié : [taltan/tcp-up-i18n](https://github.com/taltan/tcp-up-i18n).
+* **Workflow** : Toute modification de la doctrine ici déclenchera une mise à jour nécessaire des traductions.
+
 ## Ce dépôt
 
 Ce dépôt GitHub est le **lieu de travail documentaire** du protocole TCP/UP.
